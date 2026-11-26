@@ -1,0 +1,33 @@
+{
+  "hint_chance": 1.0,
+  "hints": [
+    {
+      "research": "thaumaturgicconcilium:crimson_spells",
+      "category": "thaumaturge:eldritch",
+      "weight": 4,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.crimson_spells"
+    },
+    {
+      "research": "thaumaturgicconcilium:material_peeler",
+      "category": "thaumaturge:eldritch",
+      "weight": 3,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.material_peeler"
+    },
+    {
+      "research": "thaumaturgicconcilium:pontifex_hammer",
+      "category": "thaumaturge:eldritch",
+      "weight": 2,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.pontifex_hammer"
+    },
+    {
+      "research": "thaumaturgicconcilium:pontifex_robe",
+      "category": "thaumaturge:eldritch",
+      "weight": 1,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.pontifex_robe"
+    }
+  ]
+}

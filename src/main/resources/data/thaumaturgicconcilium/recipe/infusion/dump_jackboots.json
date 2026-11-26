@@ -1,0 +1,72 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 4
+    },
+    {
+      "aspect": "forsakenmagic:desidia",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 8
+    }
+  ],
+  "catalyst": {
+    "item": "thaumaturge:traveller_boots"
+  },
+  "components": [
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "thaumaturge:thaumium_shovel"
+    },
+    {
+      "item": "thaumaturge:thaumium_shovel"
+    },
+    {
+      "item": "forsakenmagic:sloth_shard"
+    },
+    {
+      "item": "forsakenmagic:sloth_shard"
+    },
+    {
+      "item": "forsakenmagic:sloth_shard"
+    },
+    {
+      "item": "forsakenmagic:sloth_shard"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:terra"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      },
+      "type": "neoforge:components"
+    }
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicconcilium:dump_jackboots"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:dump_jackboots"
+  }
+}

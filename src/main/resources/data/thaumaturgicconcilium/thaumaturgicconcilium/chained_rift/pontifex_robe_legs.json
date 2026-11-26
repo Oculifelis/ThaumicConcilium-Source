@@ -1,0 +1,14 @@
+{
+  "research": "thaumaturgicconcilium:pontifex_robe",
+  "catalyst": {
+    "item": "thaumaturge:crimson_robe_legs"
+  },
+  "aspects": {
+    "thaumaturge:victus": 32,
+    "thaumaturge:vacuos": 32,
+    "thaumaturge:praemunio": 64,
+    "thaumaturge:permutatio": 16,
+    "thaumaturge:humanus": 64
+  },
+  "result": "thaumaturgicconcilium:pontifex_robe_legs"
+}

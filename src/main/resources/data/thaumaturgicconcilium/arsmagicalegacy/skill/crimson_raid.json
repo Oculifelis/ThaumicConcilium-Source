@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "hidden": true,
+  "parents": [],
+  "tab": "arsmagicalegacy:defense",
+  "x": 264,
+  "y": 168
+}

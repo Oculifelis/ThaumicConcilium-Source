@@ -1,0 +1,21 @@
+{
+  "aspect": "thaumaturge:gelum",
+  "behavior": {
+    "type": "thaumaturgicconcilium:cooling",
+    "interval": 10,
+    "shard": {
+      "part": "thaumaturge:frost",
+      "settings": {
+        "power": 1
+      }
+    },
+    "sound": "thaumaturge:ice"
+  },
+  "color": 12316415,
+  "complexity": 4,
+  "icon": "thaumaturgicconcilium:textures/foci/refreeze.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:cooling_focus"
+  },
+  "vis": 0.5
+}

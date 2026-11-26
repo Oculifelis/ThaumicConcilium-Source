@@ -1,0 +1,94 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "forsakenmagic:ira",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 96
+    },
+    {
+      "aspect": "forsakenmagic:infernus",
+      "amount": 128
+    }
+  ],
+  "catalyst": {
+    "items": "thaumaturge:essentia_crystal",
+    "components": {
+      "thaumaturge:crystal_aspect": {
+        "aspect": "forsakenmagic:ira"
+      }
+    },
+    "type": "neoforge:components"
+  },
+  "components": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "forsakenmagic:wrath_shard"
+    },
+    {
+      "item": "forsakenmagic:wrath_shard"
+    },
+    {
+      "item": "forsakenmagic:wrath_shard"
+    },
+    {
+      "item": "thaumaturgictinkerer:dark_quartz"
+    },
+    {
+      "item": "thaumaturgictinkerer:dark_quartz"
+    },
+    {
+      "item": "thaumaturgictinkerer:dark_quartz"
+    },
+    {
+      "item": "forsakenmagic:wrath_shard"
+    },
+    {
+      "item": "forsakenmagic:wrath_shard"
+    },
+    {
+      "item": "forsakenmagic:wrath_shard"
+    }
+  ],
+  "instability": 15,
+  "research": {
+    "entry": "thaumaturgicconcilium:wrath_attraction"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "instant",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicconcilium:wrath_attraction"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"item.thaumaturgicconcilium.focus_wrath_attraction\"}",
+      "thaumaturge:warp": 3
+    }
+  }
+}

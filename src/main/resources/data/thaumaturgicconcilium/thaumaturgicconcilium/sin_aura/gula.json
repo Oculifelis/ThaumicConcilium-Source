@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gadomancyawakened"
+    }
+  ],
+  "aspect": "forsakenmagic:gula",
+  "action": "feed",
+  "interval": 20
+}

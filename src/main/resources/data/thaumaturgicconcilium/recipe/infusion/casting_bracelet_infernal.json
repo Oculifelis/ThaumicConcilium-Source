@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgicbases"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 8
+    },
+    {
+      "aspect": "forsakenmagic:infernus",
+      "amount": 32
+    },
+    {
+      "aspect": "forsakenmagic:superbia",
+      "amount": 16
+    },
+    {
+      "aspect": "forsakenmagic:ira",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "forsakenmagic:wand_rod_infernal"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:wand_cap_thaumium"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "forsakenmagic:pride_shard"
+    },
+    {
+      "item": "thaumaturge:wand_cap_thaumium"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "forsakenmagic:pride_shard"
+    }
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicconcilium:infernal_bracelet"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:casting_bracelet_infernal"
+  }
+}

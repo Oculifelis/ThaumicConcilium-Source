@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "forsakenmagic:ira",
+    "forsakenmagic:invidia",
+    "forsakenmagic:superbia",
+    "forsakenmagic:desidia",
+    "forsakenmagic:luxuria",
+    "forsakenmagic:gula",
+    "thaumaturge:vitium",
+    "thaumaturge:desiderium"
+  ]
+}

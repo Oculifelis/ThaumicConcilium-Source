@@ -1,0 +1,61 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgicbases"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "forsakenmagic:staff_rod_witchwood"
+  },
+  "components": [
+    {
+      "item": "forsakenmagic:wand_cap_vinteum"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "arsmagicalegacy:vinteum_ore"
+    },
+    {
+      "item": "forsakenmagic:wand_cap_vinteum"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "arsmagicalegacy:vinteum_ore"
+    }
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicconcilium:witchwood_bracelet"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:casting_bracelet_witchwood"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumichorizons"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 8
+    }
+  ],
+  "catalyst": {
+    "item": "thaumaturge:seal_butcher"
+  },
+  "components": [
+    {
+      "item": "thaumichorizons:focus_containment"
+    },
+    {
+      "item": "thaumichorizons:syringe_human"
+    },
+    {
+      "item": "thaumaturge:seal_guard"
+    },
+    {
+      "item": "thaumichorizons:syringe_human"
+    }
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "thaumaturgicconcilium:assistant_seal"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:assistant_seal"
+  }
+}

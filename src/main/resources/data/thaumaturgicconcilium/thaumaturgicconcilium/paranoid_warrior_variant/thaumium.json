@@ -1,0 +1,9 @@
+{
+  "weight": 50,
+  "damage_divisor": 3.5,
+  "bonus_damage": 7.0,
+  "bolt_damage": 2.0,
+  "bolt_color": 6711005,
+  "equipment": "thaumaturgicconcilium:equipment/paranoid_warrior/thaumium",
+  "loot": "thaumaturgicconcilium:entities/paranoid_warrior/thaumium"
+}

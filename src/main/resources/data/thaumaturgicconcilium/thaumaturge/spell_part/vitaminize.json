@@ -1,0 +1,22 @@
+{
+  "aspect": "thaumaturge:victus",
+  "behavior": {
+    "type": "thaumaturgicconcilium:positive_burst",
+    "orb": {
+      "kind": "buff",
+      "buffs": [
+        "minecraft:speed",
+        "minecraft:resistance",
+        "minecraft:strength"
+      ]
+    }
+  },
+  "color": 8190976,
+  "complexity": 6,
+  "icon": "thaumaturgicconcilium:textures/foci/vitaminize.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:positive_burst_focus"
+  },
+  "vis": 14.0,
+  "cooldown_multiplier": 2.0
+}

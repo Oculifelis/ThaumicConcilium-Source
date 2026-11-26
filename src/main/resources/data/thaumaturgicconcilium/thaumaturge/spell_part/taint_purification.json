@@ -1,0 +1,16 @@
+{
+  "aspect": "thaumaturge:lux",
+  "behavior": {
+    "type": "thaumaturgicconcilium:spotlight",
+    "hum": "thaumaturgicconcilium:hum",
+    "mode": "purify",
+    "cures": {}
+  },
+  "color": 16777164,
+  "complexity": 7,
+  "icon": "thaumaturgicconcilium:textures/foci/taint_purification.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:spotlight_focus"
+  },
+  "vis": 28.0
+}

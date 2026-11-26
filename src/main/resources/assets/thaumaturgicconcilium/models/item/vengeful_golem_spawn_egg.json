@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumaturgicconcilium:item/vengeful_golem_spawn_egg"
+  }
+}

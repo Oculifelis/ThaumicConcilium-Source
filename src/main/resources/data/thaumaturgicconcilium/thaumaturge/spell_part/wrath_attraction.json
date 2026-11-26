@@ -1,0 +1,15 @@
+{
+  "aspect": "forsakenmagic:ira",
+  "behavior": {
+    "type": "thaumaturgicconcilium:wrath_attraction",
+    "sound": "thaumaturgicconcilium:ira"
+  },
+  "color": 16729344,
+  "complexity": 5,
+  "icon": "thaumaturgicconcilium:textures/foci/wrath_attraction.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:wrath_attraction"
+  },
+  "vis": 15.0,
+  "cooldown_multiplier": 0.5
+}

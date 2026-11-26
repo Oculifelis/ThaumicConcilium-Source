@@ -1,0 +1,8 @@
+{
+  "parent": "thaumaturge:block/crystalizer_crystal",
+  "textures": {
+    "crystal": "thaumaturge:block/crystalizer_crystal",
+    "particle": "thaumaturge:block/crystalizer_crystal"
+  },
+  "render_type": "minecraft:translucent"
+}

@@ -1,0 +1,68 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumichorizons"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "automagia"
+    }
+  ],
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumichorizons.red_powered_mind.title",
+  "parents": [
+    "thaumichorizons:brain_littering",
+    "thaumaturge:liquid_death",
+    "thaumaturge:base_eldritch",
+    "thaumaturge:jar_brain"
+  ],
+  "column": 17,
+  "row": 4,
+  "icons": [
+    "thaumaturgicconcilium:textures/research/red_powered_mind.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumichorizons.red_powered_mind.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ],
+      "warp": 5
+    },
+    {
+      "text": "research.thaumichorizons.red_powered_mind.stage_1"
+    },
+    {
+      "text": "research.thaumichorizons.red_powered_mind.stage_2"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 5
+    }
+  ],
+  "complexity": 3
+}

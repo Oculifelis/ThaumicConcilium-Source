@@ -1,0 +1,56 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.tight_belt.title",
+  "parents": [
+    "thaumaturgicconcilium:bottle_of_thick_taint",
+    "thaumaturgicconcilium:destabilized_crystal"
+  ],
+  "column": 5,
+  "row": -4,
+  "icons": [
+    "thaumaturgicconcilium:tight_belt"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.tight_belt.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ],
+      "warp": 3
+    },
+    {
+      "text": "research.thaumaturgicconcilium.tight_belt.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:infusion/tight_belt"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 8
+    }
+  ],
+  "complexity": 2
+}

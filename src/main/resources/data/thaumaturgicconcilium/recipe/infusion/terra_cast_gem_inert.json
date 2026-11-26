@@ -1,0 +1,115 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gadomancyawakened"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 8
+    }
+  ],
+  "catalyst": {
+    "items": "gadomancyawakened:aura_core",
+    "components": {
+      "gadomancyawakened:core_aspect": "thaumaturge:terra"
+    },
+    "type": "neoforge:components"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:primal_charm"
+    },
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:terra"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "thaumaturge:quicksilver"
+    },
+    {
+      "item": "thaumaturge:warded_glass"
+    },
+    {
+      "item": "thaumaturge:quicksilver"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:terra"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "thaumaturge:ore_cinnabar"
+    },
+    {
+      "item": "thaumaturge:primal_charm"
+    },
+    {
+      "item": "thaumaturge:amber"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "thaumaturge:alumentum"
+    },
+    {
+      "item": "thaumaturge:warded_glass"
+    },
+    {
+      "item": "thaumaturge:alumentum"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "minecraft:raw_gold"
+    }
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumaturgicconcilium:terra_cast_gem"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:terra_cast_gem_inert"
+  }
+}

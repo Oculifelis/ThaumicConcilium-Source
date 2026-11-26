@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:vitium",
+  "behavior": {
+    "type": "thaumaturgicconcilium:taint_animation",
+    "strength_effect": "minecraft:strength"
+  },
+  "color": 8077196,
+  "complexity": 6,
+  "icon": "thaumaturgicconcilium:textures/foci/taint_animation.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:taint_animation"
+  },
+  "vis": 0.6
+}

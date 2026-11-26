@@ -1,0 +1,18 @@
+{
+  "type": "thaumaturgicconcilium:causal_bouillon",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "features": false,
+      "lakes": false,
+      "layers": [
+        {
+          "block": "thaumaturgicconcilium:void_reality",
+          "height": 4
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

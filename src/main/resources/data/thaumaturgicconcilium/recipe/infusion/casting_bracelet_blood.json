@@ -1,0 +1,61 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgicbases"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "neovitae"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 8
+    },
+    {
+      "aspect": "forsakenmagic:gula",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "forsakenmagic:staff_rod_blood"
+  },
+  "components": [
+    {
+      "item": "forsakenmagic:wand_cap_alchemical"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "neovitae:bloodstone_brick"
+    },
+    {
+      "item": "forsakenmagic:wand_cap_alchemical"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "neovitae:bloodstone_brick"
+    }
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicconcilium:blood_bracelet"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:casting_bracelet_blood"
+  }
+}

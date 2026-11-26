@@ -1,0 +1,90 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "thaumichorizons"
+      }
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 32
+    }
+  ],
+  "catalyst": {
+    "item": "minecraft:armor_stand"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:void_seed"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:vacuos"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "thaumaturge:void_seed"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:victus"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "thaumaturge:void_seed"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:auram"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "thaumaturge:void_seed"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:humanus"
+        }
+      },
+      "type": "neoforge:components"
+    }
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumaturgicconcilium:protobody"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:protobody"
+  }
+}

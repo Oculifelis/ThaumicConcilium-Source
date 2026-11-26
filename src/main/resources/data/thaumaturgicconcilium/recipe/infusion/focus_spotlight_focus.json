@@ -1,0 +1,117 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 512
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 512
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 96
+    }
+  ],
+  "catalyst": {
+    "parts": [
+      "thaumictinkerer:shadowbeam"
+    ],
+    "type": "thaumaturge:focus_element"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:primordial_pearl"
+    },
+    {
+      "item": "thaumaturgictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturgictinkerer:bright_nitor"
+    },
+    {
+      "item": "thaumaturgictinkerer:bright_nitor"
+    },
+    {
+      "item": "thaumaturgictinkerer:bright_nitor"
+    },
+    {
+      "item": "thaumaturgictinkerer:bright_nitor"
+    },
+    {
+      "item": "thaumaturgictinkerer:bright_nitor"
+    },
+    {
+      "item": "thaumaturgictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturgicconcilium:primordial_life"
+    },
+    {
+      "item": "thaumaturgictinkerer:ichor"
+    },
+    {
+      "parts": [
+        "thaumaturge:fire"
+      ],
+      "type": "thaumaturge:focus_element"
+    },
+    {
+      "parts": [
+        "thaumaturge:fire"
+      ],
+      "type": "thaumaturge:focus_element"
+    },
+    {
+      "parts": [
+        "thaumaturge:fire"
+      ],
+      "type": "thaumaturge:focus_element"
+    },
+    {
+      "parts": [
+        "thaumaturge:fire"
+      ],
+      "type": "thaumaturge:focus_element"
+    },
+    {
+      "parts": [
+        "thaumaturge:fire"
+      ],
+      "type": "thaumaturge:focus_element"
+    },
+    {
+      "item": "thaumaturgictinkerer:ichor"
+    }
+  ],
+  "instability": 20,
+  "research": {
+    "entry": "thaumaturgicconcilium:spotlight_focus"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "channeled",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicconcilium:spotlight"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"item.thaumaturgicconcilium.focus_spotlight_focus\"}"
+    }
+  }
+}

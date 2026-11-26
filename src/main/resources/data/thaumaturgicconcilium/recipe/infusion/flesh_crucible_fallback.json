@@ -1,0 +1,79 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "taintedmagic"
+          },
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "thaumaturgictinkerer"
+          }
+        ]
+      }
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 32
+    },
+    {
+      "aspect": "forsakenmagic:gula",
+      "amount": 16
+    },
+    {
+      "aspect": "forsakenmagic:infernus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "item": "thaumaturgicconcilium:quicksilver_crucible"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:primordial_pearl"
+    },
+    {
+      "item": "thaumaturge:flesh_block"
+    },
+    {
+      "item": "thaumaturge:flesh_block"
+    },
+    {
+      "item": "thaumaturge:flesh_block"
+    },
+    {
+      "item": "thaumaturge:nitor_red"
+    },
+    {
+      "item": "thaumaturge:brain"
+    },
+    {
+      "item": "thaumaturge:brain"
+    },
+    {
+      "item": "thaumaturge:brain"
+    }
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumaturgicconcilium:flesh_crucible"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:flesh_crucible"
+  }
+}

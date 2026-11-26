@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "ingredients": [
+    "minecraft:nether_wart",
+    "witchery:tear_of_the_goddess",
+    "minecraft:diamond",
+    "minecraft:nether_star",
+    "witchery:pentacle",
+    "minecraft:glowstone_dust",
+    "minecraft:blaze_rod",
+    "witchery:attuned_stone",
+    "minecraft:pufferfish",
+    "witchery:wolfsbane",
+    "minecraft:glowstone_dust",
+    "minecraft:blaze_rod",
+    "witchery:condensed_fear",
+    "witchery:reek_of_misfortune",
+    "witchery:wool_of_bat"
+  ]
+}

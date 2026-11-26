@@ -1,0 +1,262 @@
+{
+  "values": [
+    {
+      "ingredient": {
+        "item": "thaumaturge:mana_bean"
+      },
+      "value": 1
+    },
+    {
+      "ingredient": {
+        "tag": "minecraft:skulls"
+      },
+      "value": 3
+    },
+    {
+      "ingredient": {
+        "item": "thaumaturge:wand"
+      },
+      "value": 3
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:experience_bottle"
+      },
+      "value": 3
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:enchanted_book"
+      },
+      "value": 5
+    }
+  ],
+  "outputs": [
+    {
+      "result": {
+        "id": "thaumaturge:mana_bean",
+        "count": 1
+      },
+      "weight": 9
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:aer"
+          }
+        }
+      },
+      "weight": 10
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:terra"
+          }
+        }
+      },
+      "weight": 10
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:ignis"
+          }
+        }
+      },
+      "weight": 10
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:aqua"
+          }
+        }
+      },
+      "weight": 10
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:ordo"
+          }
+        }
+      },
+      "weight": 10
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:perditio"
+          }
+        }
+      },
+      "weight": 10
+    },
+    {
+      "result": {
+        "id": "thaumaturge:curio_knowledge",
+        "count": 1
+      },
+      "weight": 7
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:aer"
+          }
+        }
+      },
+      "weight": 2
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:terra"
+          }
+        }
+      },
+      "weight": 2
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:ignis"
+          }
+        }
+      },
+      "weight": 2
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:aqua"
+          }
+        }
+      },
+      "weight": 2
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:ordo"
+          }
+        }
+      },
+      "weight": 2
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:perditio"
+          }
+        }
+      },
+      "weight": 2
+    },
+    {
+      "result": {
+        "id": "thaumaturge:essentia_crystal",
+        "count": 1,
+        "components": {
+          "thaumaturge:crystal_aspect": {
+            "aspect": "thaumaturge:vitium"
+          }
+        }
+      },
+      "weight": 2
+    },
+    {
+      "result": {
+        "id": "thaumaturge:focus_pouch",
+        "count": 1
+      },
+      "weight": 1
+    },
+    {
+      "result": {
+        "id": "thaumaturge:amulet_vis",
+        "count": 1
+      },
+      "weight": 4
+    },
+    {
+      "result": {
+        "id": "thaumaturge:focus_1",
+        "count": 1
+      },
+      "weight": 1
+    },
+    {
+      "result": {
+        "id": "forsakenmagic:wand_rod_witchwood",
+        "count": 1
+      },
+      "weight": 1
+    }
+  ],
+  "hint_input": {
+    "item": "thaumaturge:research_note"
+  },
+  "hints": [
+    {
+      "research": "thaumaturgicconcilium:vis_conductor",
+      "category": "thaumaturge:auromancy",
+      "weight": 1,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.vis_conductor"
+    },
+    {
+      "research": "thaumaturgicconcilium:positive_burst_focus",
+      "category": "thaumaturge:auromancy",
+      "weight": 2,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.positive_burst_focus"
+    },
+    {
+      "research": "thaumaturgicconcilium:impulse_focus",
+      "category": "thaumaturge:auromancy",
+      "weight": 1,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.impulse_focus"
+    }
+  ],
+  "raise_chance": 0.2,
+  "lower_chance": 0.5
+}

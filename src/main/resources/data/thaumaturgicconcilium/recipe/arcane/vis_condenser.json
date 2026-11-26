@@ -1,0 +1,50 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "thaumaturge:stone_arcane"
+    },
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "F": {
+      "item": "thaumaturge:focus_1"
+    },
+    "A": {
+      "item": "thaumaturge:node_stabilizer_advanced"
+    }
+  },
+  "pattern": [
+    "GSG",
+    "BFB",
+    "BAB"
+  ],
+  "research": {
+    "entry": "thaumaturgicconcilium:vis_condenser"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:vis_condenser"
+  },
+  "vis": 60
+}

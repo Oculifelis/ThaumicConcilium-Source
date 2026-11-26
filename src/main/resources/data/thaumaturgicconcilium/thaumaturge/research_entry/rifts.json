@@ -1,0 +1,43 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.rifts.title",
+  "parents": [],
+  "column": 9,
+  "row": 0,
+  "meta": [
+    "round",
+    "hidden"
+  ],
+  "icons": [
+    "thaumaturgicconcilium:textures/research/rift_res.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.rifts.stage_0",
+      "warp": 3
+    },
+    {
+      "text": "research.thaumaturgicconcilium.rifts.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 8
+    }
+  ],
+  "complexity": 1
+}

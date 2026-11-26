@@ -1,0 +1,60 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 32
+    },
+    {
+      "aspect": "forsakenmagic:invidia",
+      "amount": 32
+    }
+  ],
+  "catalyst": {
+    "item": "thaumaturge:amulet_vis"
+  },
+  "components": [
+    {
+      "item": "forsakenmagic:envy_shard"
+    },
+    {
+      "item": "forsakenmagic:envy_shard"
+    },
+    {
+      "item": "forsakenmagic:envy_shard"
+    },
+    {
+      "item": "forsakenmagic:envy_shard"
+    },
+    {
+      "item": "forsakenmagic:envy_shard"
+    },
+    {
+      "item": "forsakenmagic:envy_shard"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "thaumaturge:stone_arcane"
+    }
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "thaumaturgicconcilium:burdening_amulet"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:burdening_amulet"
+  }
+}

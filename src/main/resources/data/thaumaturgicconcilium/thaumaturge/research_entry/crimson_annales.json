@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.crimson_annales.title",
+  "parents": [
+    "thaumaturge:crimson_rites"
+  ],
+  "column": -8,
+  "row": 6,
+  "icons": [
+    "thaumaturgicconcilium:crimson_annales"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.crimson_annales.stage_0",
+      "warp": 3
+    },
+    {
+      "text": "research.thaumaturgicconcilium.crimson_annales.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

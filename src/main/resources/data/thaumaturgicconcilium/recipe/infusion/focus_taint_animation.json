@@ -1,0 +1,135 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 256
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 160
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 32
+    }
+  ],
+  "catalyst": {
+    "parts": [
+      "thaumaturge:hellbat"
+    ],
+    "type": "thaumaturge:focus_element"
+  },
+  "components": [
+    {
+      "item": "forsakenmagic:taint_shard"
+    },
+    {
+      "item": "forsakenmagic:taint_shard"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:vitium"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "thaumaturge:primal_charm"
+    },
+    {
+      "item": "thaumaturge:taint_tendril"
+    },
+    {
+      "item": "thaumaturge:taint_tendril"
+    },
+    {
+      "item": "thaumaturge:taint_tendril"
+    },
+    {
+      "item": "thaumaturge:primal_charm"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:vitium"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "forsakenmagic:taint_shard"
+    },
+    {
+      "item": "forsakenmagic:taint_shard"
+    },
+    {
+      "item": "forsakenmagic:taint_shard"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:vitium"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "thaumaturge:primal_charm"
+    },
+    {
+      "item": "thaumaturge:tainted_goo"
+    },
+    {
+      "item": "thaumaturge:tainted_goo"
+    },
+    {
+      "item": "thaumaturge:tainted_goo"
+    },
+    {
+      "item": "thaumaturge:primal_charm"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:vitium"
+        }
+      },
+      "type": "neoforge:components"
+    },
+    {
+      "item": "forsakenmagic:taint_shard"
+    }
+  ],
+  "instability": 20,
+  "research": {
+    "entry": "thaumaturgicconcilium:taint_animation"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "channeled",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicconcilium:taint_animation"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"item.thaumaturgicconcilium.focus_taint_animation\"}",
+      "thaumaturge:warp": 4
+    }
+  }
+}

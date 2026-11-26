@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.thaumaturgicconcilium.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EtherealPlayerMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "all": "thaumaturgicconcilium:block/void_reality",
+    "particle": "thaumaturgicconcilium:block/void_reality"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#all",
+          "shade": false,
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#all",
+          "shade": false,
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#all",
+          "shade": false,
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#all",
+          "shade": false,
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#all",
+          "shade": false,
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "#all",
+          "shade": false,
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

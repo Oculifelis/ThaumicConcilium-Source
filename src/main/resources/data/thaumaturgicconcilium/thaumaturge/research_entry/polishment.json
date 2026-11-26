@@ -1,0 +1,36 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.polishment.title",
+  "parents": [
+    "thaumaturgicconcilium:vis_conductor"
+  ],
+  "column": -4,
+  "row": 3,
+  "icons": [
+    "thaumaturgicconcilium:polishment_device"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.polishment.stage_0"
+    },
+    {
+      "text": "research.thaumaturgicconcilium.polishment.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    }
+  ],
+  "complexity": 1
+}

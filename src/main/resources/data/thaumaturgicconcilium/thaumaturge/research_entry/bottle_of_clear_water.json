@@ -1,0 +1,30 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.bottle_of_clear_water.title",
+  "parents": [
+    "thaumaturgicconcilium:thaumaturges"
+  ],
+  "column": 0,
+  "row": -6,
+  "icons": [
+    "thaumaturgicconcilium:bottle_of_clear_water"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.bottle_of_clear_water.stage_0"
+    },
+    {
+      "text": "research.thaumaturgicconcilium.bottle_of_clear_water.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:crucible/bottle_of_clear_water"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

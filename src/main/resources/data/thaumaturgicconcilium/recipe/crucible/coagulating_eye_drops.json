@@ -1,0 +1,26 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 1
+    }
+  ],
+  "catalyst": {
+    "item": "thaumaturge:phial"
+  },
+  "research": {
+    "entry": "thaumaturgicconcilium:lithographer"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:coagulating_eye_drops"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "aspect": "thaumaturge:permutatio",
+  "behavior": {
+    "type": "thaumaturgicconcilium:alchemist_spree",
+    "conversions": [
+      {
+        "from": "minecraft:snowball",
+        "spell": {
+          "part": "thaumaturge:frost",
+          "settings": {
+            "power": 1
+          }
+        },
+        "primal_spell": {
+          "part": "thaumaturge:frost",
+          "settings": {
+            "power": 2
+          }
+        }
+      },
+      {
+        "from": "minecraft:egg",
+        "spawn": "thaumaturge:taint_crawler"
+      },
+      {
+        "from": "minecraft:small_fireball",
+        "explode": 1.0
+      },
+      {
+        "from": "thaumaturge:eldritch_orb",
+        "spell": {
+          "part": "thaumictinkerer:shadowbeam"
+        }
+      },
+      {
+        "from": "thaumaturgicconcilium:thrown_bottle",
+        "spawn": "thaumaturge:bottle_taint"
+      }
+    ],
+    "sound": "thaumaturgicconcilium:bubbles",
+    "primal_essence": true
+  },
+  "color": 16766720,
+  "complexity": 7,
+  "icon": "thaumaturgicconcilium:textures/foci/primal_essence.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:alchemist_spree"
+  },
+  "vis": 10.0
+}

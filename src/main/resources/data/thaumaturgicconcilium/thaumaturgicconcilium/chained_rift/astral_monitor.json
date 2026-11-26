@@ -1,0 +1,12 @@
+{
+  "research": "thaumaturgicconcilium:astral_monitor",
+  "catalyst": {
+    "item": "thaumaturge:thaumometer"
+  },
+  "aspects": {
+    "thaumaturge:sensus": 32,
+    "thaumaturge:vacuos": 32,
+    "thaumaturge:cognitio": 16
+  },
+  "result": "thaumaturgicconcilium:astral_monitor"
+}

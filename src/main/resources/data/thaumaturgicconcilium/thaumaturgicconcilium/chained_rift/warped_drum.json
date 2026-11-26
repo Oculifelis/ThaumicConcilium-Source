@@ -1,0 +1,14 @@
+{
+  "research": "thaumaturgicconcilium:warped_drum",
+  "catalyst": {
+    "item": "thaumaturgicconcilium:thaumaturge_drum"
+  },
+  "aspects": {
+    "thaumaturge:sensus": 32,
+    "thaumaturge:perditio": 32,
+    "thaumaturge:cognitio": 16,
+    "thaumaturge:bestia": 16,
+    "thaumaturge:vitium": 16
+  },
+  "result": "thaumaturgicconcilium:warped_thaumaturge_drum"
+}

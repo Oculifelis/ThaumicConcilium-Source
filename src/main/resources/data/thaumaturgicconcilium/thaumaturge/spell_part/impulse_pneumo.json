@@ -1,0 +1,20 @@
+{
+  "aspect": "thaumaturge:aer",
+  "behavior": {
+    "type": "thaumaturgicconcilium:impulse",
+    "thump": "thaumaturgicconcilium:thump",
+    "explosion": 0.0,
+    "explosion_per_potency": 0.0,
+    "knock_radius": 10.0,
+    "knock_base": 0.5,
+    "knock_per_potency": 0.5
+  },
+  "color": 16751001,
+  "complexity": 6,
+  "icon": "thaumaturgicconcilium:textures/foci/impulse_pneumo.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:impulse_focus"
+  },
+  "vis": 12.5,
+  "cooldown_multiplier": 4.0
+}

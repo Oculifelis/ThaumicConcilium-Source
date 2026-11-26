@@ -1,0 +1,79 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "mana": 3000.0,
+  "burnout": 300.0,
+  "affinity_shifts": {
+    "arsmagicalegacy:ender": 0.01,
+    "arsmagicalegacy:arcane": 0.01
+  },
+  "recipe": [
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "thaumaturge:primordial_pearl"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "thaumaturge:curio_rites"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "thaumaturge:focus_1"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "thaumaturgicconcilium:crimson_annales"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 8,
+      "item": "thaumaturge:banner_crimson_cult"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": {
+        "components": {
+          "arsmagicalegacy:affinity": "arsmagicalegacy:ender"
+        },
+        "items": "arsmagicalegacy:affinity_essence",
+        "type": "neoforge:components"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": {
+        "components": {
+          "arsmagicalegacy:affinity": "arsmagicalegacy:arcane"
+        },
+        "items": "arsmagicalegacy:affinity_essence",
+        "type": "neoforge:components"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": {
+        "components": {
+          "arsmagicalegacy:affinity": "arsmagicalegacy:life"
+        },
+        "items": "arsmagicalegacy:affinity_essence",
+        "type": "neoforge:components"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:etherium",
+      "count": 10000,
+      "etherium_type": "arsmagicalegacy:dark"
+    }
+  ]
+}

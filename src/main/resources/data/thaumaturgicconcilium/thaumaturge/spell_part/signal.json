@@ -1,0 +1,60 @@
+{
+  "aspect": "thaumaturge:lux",
+  "behavior": {
+    "type": "thaumaturgicconcilium:signal",
+    "thump": "thaumaturgicconcilium:thump"
+  },
+  "color": 11743532,
+  "complexity": 3,
+  "icon": "thaumaturgicconcilium:textures/foci/signal.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:signal_focus"
+  },
+  "vis": 2.0,
+  "settings": [
+    {
+      "key": "color",
+      "min": 0,
+      "max": 16,
+      "default": 16,
+      "complexity": 0.0,
+      "name": "spell.thaumaturgicconcilium.setting.color",
+      "labels": [
+        "spell.thaumaturgicconcilium.value.black",
+        "spell.thaumaturgicconcilium.value.red",
+        "spell.thaumaturgicconcilium.value.green",
+        "spell.thaumaturgicconcilium.value.brown",
+        "spell.thaumaturgicconcilium.value.blue",
+        "spell.thaumaturgicconcilium.value.purple",
+        "spell.thaumaturgicconcilium.value.cyan",
+        "spell.thaumaturgicconcilium.value.light_gray",
+        "spell.thaumaturgicconcilium.value.gray",
+        "spell.thaumaturgicconcilium.value.pink",
+        "spell.thaumaturgicconcilium.value.lime",
+        "spell.thaumaturgicconcilium.value.yellow",
+        "spell.thaumaturgicconcilium.value.light_blue",
+        "spell.thaumaturgicconcilium.value.magenta",
+        "spell.thaumaturgicconcilium.value.orange",
+        "spell.thaumaturgicconcilium.value.white",
+        "spell.thaumaturgicconcilium.value.rainbow"
+      ]
+    },
+    {
+      "key": "shape",
+      "min": 0,
+      "max": 5,
+      "default": 0,
+      "complexity": 0.25,
+      "name": "spell.thaumaturgicconcilium.setting.shape",
+      "labels": [
+        "spell.thaumaturgicconcilium.value.small_ball",
+        "spell.thaumaturgicconcilium.value.large_ball",
+        "spell.thaumaturgicconcilium.value.star",
+        "spell.thaumaturgicconcilium.value.creeper",
+        "spell.thaumaturgicconcilium.value.burst",
+        "spell.thaumaturgicconcilium.value.random_bang"
+      ]
+    }
+  ],
+  "cooldown_multiplier": 4.0
+}

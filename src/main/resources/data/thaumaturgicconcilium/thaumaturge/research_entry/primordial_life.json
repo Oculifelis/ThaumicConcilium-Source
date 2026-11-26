@@ -1,0 +1,52 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.primordial_life.title",
+  "parents": [
+    "thaumaturgicconcilium:thaumaturge_drum"
+  ],
+  "column": -12,
+  "row": 7,
+  "icons": [
+    "thaumaturgicconcilium:primordial_life"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.primordial_life.stage_0",
+      "obtain": [
+        {
+          "items": [
+            "thaumaturgicconcilium:primordial_life"
+          ],
+          "amount": 1
+        }
+      ],
+      "warp": 3
+    },
+    {
+      "text": "research.thaumaturgicconcilium.primordial_life.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 3
+    },
+    {
+      "aspect": "forsakenmagic:superbia",
+      "amount": 3
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

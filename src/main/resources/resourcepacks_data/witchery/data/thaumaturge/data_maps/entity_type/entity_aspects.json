@@ -1,0 +1,59 @@
+{
+  "replace": false,
+  "values": {
+    "thaumaturgicconcilium:burned_witch": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 4
+      },
+      {
+        "aspect": "forsakenmagic:infernus",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:sloppy_alchemist": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:vinculum",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 4
+      },
+      {
+        "aspect": "forsakenmagic:infernus",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:chort": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "forsakenmagic:infernus",
+        "amount": 4
+      }
+    ]
+  }
+}

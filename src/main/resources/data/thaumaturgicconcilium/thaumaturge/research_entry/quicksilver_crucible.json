@@ -1,0 +1,42 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.quicksilver_crucible.title",
+  "parents": [
+    "thaumaturgicconcilium:thaumaturges"
+  ],
+  "column": -5,
+  "row": -2,
+  "icons": [
+    "thaumaturgicconcilium:quicksilver_crucible"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.quicksilver_crucible.stage_0"
+    },
+    {
+      "text": "research.thaumaturgicconcilium.quicksilver_crucible.stage_1"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

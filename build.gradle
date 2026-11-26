@@ -1,0 +1,102 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = "${mod_id}-${minecraft_version}"
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    mavenCentral()
+    flatDir { dirs 'libs' }
+    maven {
+        name = 'Curios'
+        url = 'https://maven.theillusivec4.top/'
+        content { includeGroup 'top.theillusivec4.curios' }
+    }
+    maven {
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
+    }
+}
+
+dependencies {
+    // Local copies, not committed (see libs/README.md).
+    implementation files('libs/thaumaturge-1.21.1-NeoForge-1.1.0.jar')
+    implementation files('libs/thaumaturgictinkerer-1.21.1-1.1.0.jar')
+    implementation files('libs/forsakenmagic-1.21.1-0.13.0.jar')
+    implementation "top.theillusivec4.curios:curios-neoforge:${curios_version}"
+    compileOnly 'org.jetbrains:annotations:24.1.0'
+    runtimeOnly "maven.modrinth:lithostitched:${lithostitched_version}"
+    // Partner mods: compiled against, never required (all compat is behind mod_loaded). -Ppartners=1 also puts
+    // them (and their own dependencies in libs/partners/deps) on the run classpath.
+    compileOnly fileTree(dir: 'libs/partners', include: '*.jar')
+    if (project.hasProperty('partners')) {
+        runtimeOnly fileTree(dir: 'libs/partners', include: '*.jar')
+        runtimeOnly fileTree(dir: 'libs/partners/deps', include: '*.jar')
+    }
+}
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run/client')
+            jvmArgument '-Xmx3G'
+            if (project.hasProperty('autotest')) {
+                systemProperty 'thaumaturgicconcilium.autotest', project.property('autotest').toString()
+            }
+        }
+        server {
+            server()
+            gameDirectory = project.file('run/server')
+            programArgument '--nogui'
+            systemProperty 'thaumaturgicconcilium.selftest', 'true'
+        }
+        configureEach {
+            jvmArgument '-XX:ActiveProcessorCount=4'
+            systemProperty 'forge.logging.markers', ''
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version        : minecraft_version,
+            minecraft_version_range  : minecraft_version_range,
+            neo_version              : neo_version,
+            mod_id                   : mod_id,
+            mod_name                 : mod_name,
+            mod_license              : mod_license,
+            mod_version              : mod_version,
+            thaumaturge_version_range: thaumaturge_version_range,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+apply from: "gradle/oldns-check.gradle"

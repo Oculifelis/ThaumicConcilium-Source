@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:praemunio",
+  "behavior": {
+    "type": "thaumaturgicconcilium:scribing",
+    "sound": "thaumaturge:write"
+  },
+  "color": 1118481,
+  "complexity": 4,
+  "icon": "thaumaturgicconcilium:textures/foci/scribing.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:scribing_focus"
+  },
+  "vis": 0.32
+}

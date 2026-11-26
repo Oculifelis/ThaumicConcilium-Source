@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gadomancyawakened"
+    }
+  ],
+  "aspect": "forsakenmagic:luxuria",
+  "action": "reset_breeding",
+  "interval": 40
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumaturgicconcilium:item/pontifex_base2",
+    "layer1": "thaumaturgicconcilium:item/pontifex_overlay2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "thaumaturge:aer",
+    "thaumaturge:terra",
+    "thaumaturge:ignis",
+    "thaumaturge:aqua",
+    "thaumaturge:ordo",
+    "thaumaturge:perditio"
+  ]
+}

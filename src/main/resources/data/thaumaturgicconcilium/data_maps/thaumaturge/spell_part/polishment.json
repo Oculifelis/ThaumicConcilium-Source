@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": {
+    "thaumaturgicconcilium:cooling": {
+      "aspect": "thaumaturge:aversio",
+      "amount": 16
+    },
+    "thaumaturgicconcilium:wrath_attraction": {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 32
+    },
+    "thaumaturgicconcilium:taint_animation": {
+      "aspect": "forsakenmagic:infernus",
+      "amount": 64
+    },
+    "thaumaturgicconcilium:reflection": {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 64
+    },
+    "thaumaturgicconcilium:warp_extraction": {
+      "aspect": "thaumaturge:victus",
+      "amount": 128
+    },
+    "thaumaturgicconcilium:spotlight": {
+      "aspect": "thaumaturge:perditio",
+      "amount": 256
+    },
+    "thaumaturgicconcilium:scribing": {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 32
+    },
+    "thaumaturgicconcilium:ethereal_manipulator": {
+      "aspect": "forsakenmagic:desidia",
+      "amount": 32
+    }
+  }
+}

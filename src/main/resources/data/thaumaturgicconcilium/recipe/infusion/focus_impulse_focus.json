@@ -1,0 +1,81 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 128
+    },
+    {
+      "aspect": "forsakenmagic:ira",
+      "amount": 96
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 32
+    }
+  ],
+  "catalyst": {
+    "parts": [
+      "thaumaturgicconcilium:signal",
+      "thaumaturgicconcilium:flashbang"
+    ],
+    "type": "thaumaturge:focus_element"
+  },
+  "components": [
+    {
+      "parts": [
+        "thaumaturge:fire"
+      ],
+      "type": "thaumaturge:focus_element"
+    },
+    {
+      "item": "thaumaturge:stone_arcane"
+    },
+    {
+      "item": "thaumaturge:primal_charm"
+    },
+    {
+      "item": "thaumaturge:stone_arcane"
+    },
+    {
+      "parts": [
+        "thaumaturge:fire"
+      ],
+      "type": "thaumaturge:focus_element"
+    },
+    {
+      "item": "thaumaturge:stone_arcane"
+    },
+    {
+      "item": "thaumaturge:primal_charm"
+    },
+    {
+      "item": "thaumaturge:stone_arcane"
+    }
+  ],
+  "instability": 15,
+  "research": {
+    "entry": "thaumaturgicconcilium:impulse_focus"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "instant",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicconcilium:impulse"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"item.thaumaturgicconcilium.focus_impulse_focus\"}"
+    }
+  }
+}

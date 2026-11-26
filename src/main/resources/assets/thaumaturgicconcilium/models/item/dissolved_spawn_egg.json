@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumaturgicconcilium:item/dissolved_spawn_egg"
+  }
+}

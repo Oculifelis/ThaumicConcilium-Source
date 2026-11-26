@@ -1,0 +1,188 @@
+{
+  "variants": {
+    "master=false": [
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_2"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_3"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_4"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_5"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_6"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_7"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_8"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_9"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_10"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_11"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_12"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_13"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_14"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_15"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_16"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_17"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_18"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_19"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_20"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_21"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_22"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_23"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_24"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_25"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_26"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_27"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_28"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_29"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_30"
+      }
+    ],
+    "master=true": [
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_2"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_3"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_4"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_5"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_6"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_7"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_8"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_9"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_10"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_11"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_12"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_13"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_14"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_15"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_16"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_17"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_18"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_19"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_20"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_21"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_22"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_23"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_24"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_25"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_26"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_27"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_28"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_29"
+      },
+      {
+        "model": "thaumaturgicconcilium:block/hex_of_predictability_thick_30"
+      }
+    ]
+  }
+}

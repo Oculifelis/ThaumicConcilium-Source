@@ -1,0 +1,81 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 24
+    },
+    {
+      "aspect": "forsakenmagic:superbia",
+      "amount": 24
+    }
+  ],
+  "catalyst": {
+    "item": "thaumaturge:ring_fancy"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:eldritch_eye"
+    },
+    {
+      "item": "thaumaturgictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturgictinkerer:ichor"
+    },
+    {
+      "item": "thaumaturgictinkerer:bright_nitor"
+    },
+    {
+      "item": "thaumaturgictinkerer:bright_nitor"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "thaumaturgicconcilium:primordial_life"
+    },
+    {
+      "item": "thaumaturgictinkerer:gaseous_shadow"
+    },
+    {
+      "item": "forsakenmagic:wrath_shard"
+    },
+    {
+      "item": "forsakenmagic:pride_shard"
+    },
+    {
+      "item": "forsakenmagic:greed_shard"
+    }
+  ],
+  "instability": 25,
+  "research": {
+    "entry": "thaumaturgicconcilium:ring_of_blustering_light"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:ring_of_blustering_light"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "W": {
+      "item": "thaumaturge:log_greatwood"
+    },
+    "C": {
+      "item": "thaumaturge:primal_charm"
+    }
+  },
+  "pattern": [
+    "GLG",
+    "WCW",
+    "GWG"
+  ],
+  "research": {
+    "entry": "thaumaturgicconcilium:shard_mill"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:greatwood_shard_mill"
+  },
+  "vis": 25
+}

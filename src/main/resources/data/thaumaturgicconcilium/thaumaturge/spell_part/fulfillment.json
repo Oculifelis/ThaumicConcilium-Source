@@ -1,0 +1,17 @@
+{
+  "aspect": "thaumaturge:victus",
+  "behavior": {
+    "type": "thaumaturgicconcilium:positive_burst",
+    "orb": {
+      "kind": "absorption"
+    }
+  },
+  "color": 16766720,
+  "complexity": 5,
+  "icon": "thaumaturgicconcilium:textures/foci/fulfillment.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:positive_burst_focus"
+  },
+  "vis": 13.5,
+  "cooldown_multiplier": 2.0
+}

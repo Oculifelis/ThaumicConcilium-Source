@@ -1,0 +1,15 @@
+{
+  "aspect": "thaumaturge:potentia",
+  "behavior": {
+    "type": "thaumaturgicconcilium:impulse",
+    "thump": "thaumaturgicconcilium:thump"
+  },
+  "color": 16724787,
+  "complexity": 5,
+  "icon": "thaumaturgicconcilium:textures/foci/impulse.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:impulse_focus"
+  },
+  "vis": 16.0,
+  "cooldown_multiplier": 4.0
+}

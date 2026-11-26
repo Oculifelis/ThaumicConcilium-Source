@@ -1,0 +1,17 @@
+{
+  "aspect": "thaumaturge:alienis",
+  "behavior": {
+    "type": "thaumaturgicconcilium:warp_extraction",
+    "summon_sound": "thaumaturgicconcilium:breath",
+    "charge": {
+      "whisper": "thaumaturgicconcilium:whispers"
+    }
+  },
+  "color": 6095211,
+  "complexity": 6,
+  "icon": "thaumaturgicconcilium:textures/foci/warp_extraction.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:warp_extraction_focus"
+  },
+  "vis": 3.2
+}
