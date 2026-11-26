@@ -1,0 +1,15 @@
+{
+  "aspect": "thaumaturge:permutatio",
+  "behavior": {
+    "type": "thaumaturgicconcilium:vis_conductor",
+    "sound": "thaumaturge:jacobs",
+    "wisp_launcher": true
+  },
+  "color": 13421772,
+  "complexity": 6,
+  "icon": "thaumaturgicconcilium:textures/foci/wisp_launcher.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:vis_conductor"
+  },
+  "vis": 0.6
+}

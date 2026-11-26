@@ -1,0 +1,54 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.destabilized_crystal.title",
+  "parents": [
+    "thaumaturgicconcilium:vis_conductor"
+  ],
+  "column": -2,
+  "row": 5,
+  "icons": [
+    "thaumaturgicconcilium:destabilized_crystal"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.destabilized_crystal.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicconcilium.destabilized_crystal.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:arcane/destabilized_crystal"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 8
+    }
+  ],
+  "complexity": 2
+}

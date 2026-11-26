@@ -1,0 +1,76 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 256
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 192
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 128
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "thaumaturge:focus_element",
+    "parts": [
+      "thaumaturge:ward"
+    ]
+  },
+  "components": [
+    "thaumaturge:primal_charm",
+    "thaumaturgictinkerer:bright_nitor",
+    "forsakenmagic:crystalwell",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:praecantatio"
+        }
+      }
+    },
+    "minecraft:glowstone",
+    "minecraft:quartz",
+    "thaumaturge:curio_knowledge",
+    "thaumaturgictinkerer:dark_quartz"
+  ],
+  "instability": 15,
+  "research": {
+    "entry": "thaumaturgicconcilium:scribing_focus"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "channeled",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicconcilium:scribing"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "item.thaumaturgicconcilium.focus_scribing_focus"
+      }
+    }
+  }
+}

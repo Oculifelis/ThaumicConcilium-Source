@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "thaumaturgicconcilium:syringe_filled",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "thaumaturgicconcilium:item/drainage_syringe_filled"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "thaumaturgicconcilium:item/drainage_syringe"
+    }
+  }
+}

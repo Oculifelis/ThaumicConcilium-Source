@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gadomancyawakened"
+    }
+  ],
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.gadomancy.title",
+  "parents": [
+    "thaumaturgicconcilium:thaumaturges"
+  ],
+  "column": -16,
+  "row": 1,
+  "meta": [
+    "round"
+  ],
+  "icons": [
+    "gadomancyawakened:aura_pylon"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.gadomancy.stage_0"
+    },
+    {
+      "text": "research.thaumaturgicconcilium.gadomancy.stage_1"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    }
+  ],
+  "complexity": 1
+}

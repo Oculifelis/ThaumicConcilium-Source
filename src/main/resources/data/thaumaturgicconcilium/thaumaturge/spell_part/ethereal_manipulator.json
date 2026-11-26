@@ -1,0 +1,22 @@
+{
+  "aspect": "thaumaturge:motus",
+  "behavior": {
+    "type": "thaumaturgicconcilium:ethereal_manipulator"
+  },
+  "color": 16711935,
+  "complexity": 4,
+  "icon": "thaumaturgicconcilium:textures/foci/ethereal_manipulator.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:ethereal_manipulator"
+  },
+  "vis": 1.4,
+  "settings": [
+    {
+      "key": "range",
+      "min": 1,
+      "max": 16,
+      "default": 5,
+      "complexity": 0.0
+    }
+  ]
+}

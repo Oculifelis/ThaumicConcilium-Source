@@ -1,0 +1,12 @@
+{
+  "research": "thaumaturgicconcilium:terra_cast_gem",
+  "catalyst": "thaumaturgicconcilium:terra_cast_gem_inert",
+  "aspects": {
+    "thaumaturge:motus": 32,
+    "thaumaturge:perditio": 32,
+    "thaumaturge:vitreus": 32,
+    "thaumaturge:cognitio": 32,
+    "thaumaturge:auram": 16
+  },
+  "result": "thaumaturgicconcilium:terra_cast_gem"
+}

@@ -1,0 +1,55 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.shard_mill.title",
+  "parents": [
+    "thaumaturgicconcilium:thaumaturges",
+    "thaumaturge:rod_greatwood"
+  ],
+  "column": 0,
+  "row": -3,
+  "icons": [
+    "thaumaturgicconcilium:greatwood_shard_mill"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.shard_mill.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicconcilium.shard_mill.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:arcane/greatwood_shard_mill"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

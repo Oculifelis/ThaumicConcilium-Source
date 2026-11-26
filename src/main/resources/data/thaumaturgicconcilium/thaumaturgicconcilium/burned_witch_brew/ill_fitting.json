@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "ingredients": [
+    "minecraft:nether_wart",
+    "witchery:tear_of_the_goddess",
+    "minecraft:diamond",
+    "minecraft:nether_star",
+    "witchery:pentacle",
+    "minecraft:glowstone_dust",
+    "minecraft:blaze_rod",
+    "witchery:attuned_stone",
+    "witchery:wild_bramble",
+    "minecraft:glowstone_dust",
+    "minecraft:blaze_rod",
+    "witchery:condensed_fear",
+    "witchery:reek_of_misfortune",
+    "minecraft:glowstone_dust",
+    "minecraft:blaze_rod",
+    "witchery:glintweed",
+    "witchery:belladonna_flower",
+    "minecraft:lapis_lazuli",
+    "minecraft:end_stone",
+    "minecraft:gunpowder"
+  ]
+}

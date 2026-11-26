@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.sloppy_alchemist.title",
+  "parents": [
+    "thaumaturgicconcilium:thaumaturges"
+  ],
+  "column": -6,
+  "row": -1,
+  "icons": [
+    "thaumaturgicconcilium:textures/research/sloppy_alchemist.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.sloppy_alchemist.stage_0"
+    },
+    {
+      "text": "research.thaumaturgicconcilium.sloppy_alchemist.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    },
+    {
+      "aspect": "forsakenmagic:infernus",
+      "amount": 4
+    }
+  ],
+  "complexity": 1
+}

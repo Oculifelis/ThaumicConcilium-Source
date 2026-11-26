@@ -1,0 +1,96 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 512
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 512
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 128
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "thaumaturge:focus_element",
+    "parts": [
+      "thaumictinkerer:deflect"
+    ]
+  },
+  "components": [
+    "thaumaturgicconcilium:primordial_life",
+    "thaumaturge:quicksilver",
+    "thaumaturge:crucible",
+    "thaumaturge:alembic",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:praecantatio"
+        }
+      }
+    },
+    "thaumaturge:alembic",
+    "thaumaturge:crucible",
+    "thaumaturge:thaumatorium",
+    "thaumaturge:primordial_pearl",
+    "thaumaturge:quicksilver",
+    "thaumaturge:crucible",
+    "thaumaturge:alembic",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:praecantatio"
+        }
+      }
+    },
+    "thaumaturge:alembic",
+    "thaumaturge:crucible",
+    "thaumaturge:thaumatorium"
+  ],
+  "instability": 20,
+  "research": {
+    "entry": "thaumaturgicconcilium:alchemist_spree"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "channeled",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicconcilium:alchemist_spree"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "item.thaumaturgicconcilium.focus_alchemist_spree"
+      }
+    }
+  }
+}

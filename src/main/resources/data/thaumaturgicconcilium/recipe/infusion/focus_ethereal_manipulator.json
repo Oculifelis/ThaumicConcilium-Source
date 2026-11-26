@@ -1,0 +1,136 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:volatus",
+      "amount": 64
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "thaumaturge:focus_element",
+    "parts": [
+      "thaumictinkerer:telekinesis"
+    ]
+  },
+  "components": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:auram"
+        }
+      }
+    },
+    "minecraft:sugar",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:auram"
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      }
+    },
+    "thaumaturge:alumentum",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:motus"
+        }
+      }
+    },
+    "minecraft:sugar",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:motus"
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:volatus"
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:volatus"
+        }
+      }
+    }
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumaturgicconcilium:ethereal_manipulator"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "channeled",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicconcilium:ethereal_manipulator"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "item.thaumaturgicconcilium.focus_ethereal_manipulator"
+      }
+    }
+  }
+}

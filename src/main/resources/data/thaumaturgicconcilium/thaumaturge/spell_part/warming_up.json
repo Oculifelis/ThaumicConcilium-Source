@@ -1,0 +1,16 @@
+{
+  "aspect": "thaumaturge:lux",
+  "behavior": {
+    "type": "thaumaturgicconcilium:spotlight",
+    "hum": "thaumaturgicconcilium:hum",
+    "mode": "warm",
+    "effect": "minecraft:regeneration"
+  },
+  "color": 16755251,
+  "complexity": 6,
+  "icon": "thaumaturgicconcilium:textures/foci/warming_up.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:spotlight_focus"
+  },
+  "vis": 12.0
+}

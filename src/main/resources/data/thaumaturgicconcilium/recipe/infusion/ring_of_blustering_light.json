@@ -1,0 +1,55 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 24
+    },
+    {
+      "aspect": "forsakenmagic:superbia",
+      "amount": 24
+    }
+  ],
+  "catalyst": "thaumaturge:ring_fancy",
+  "components": [
+    "thaumaturge:eldritch_eye",
+    "thaumaturgictinkerer:ichor",
+    "thaumaturgictinkerer:ichor",
+    "thaumaturgictinkerer:bright_nitor",
+    "thaumaturgictinkerer:bright_nitor",
+    "minecraft:diamond_block",
+    "minecraft:diamond_block",
+    "thaumaturgicconcilium:primordial_life",
+    "thaumaturgictinkerer:gaseous_shadow",
+    "forsakenmagic:wrath_shard",
+    "forsakenmagic:pride_shard",
+    "forsakenmagic:greed_shard"
+  ],
+  "instability": 25,
+  "research": {
+    "entry": "thaumaturgicconcilium:ring_of_blustering_light"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:ring_of_blustering_light"
+  }
+}

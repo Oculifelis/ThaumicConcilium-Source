@@ -1,0 +1,14 @@
+[
+  {
+    "id": "red_powered_mind_entity",
+    "kind": "entity",
+    "target": "assets/thaumaturgicconcilium/textures/entity/red_powered_mind.png",
+    "kin": "the round 11 icon's palette (tools/art_round11_textures.py PAL): pink flesh ramp, peach highlight, purple-crimson underside, red/orange eyes, olive stem",
+    "original": "art/round10/entity/red_powered_mind.png",
+    "group": "Red Powered Mind",
+    "summary": "Repainted to match the round 11 icon: brain faces in the icon's pink ramp with 2-3px gyri, 1px grooves and lit/shaded lips (light from the top-left), the midline fissure on top/front/back, a peach highlight on the front-left peak, sides darkening into the purple-crimson underside, two small glowing eyes (orange + red) under a shaded brow on the front, a striped dark cerebellum lobe, an olive ringed stem/cord. No black outlines, 1 texel per model pixel.",
+    "model_change": {},
+    "animated": false,
+    "note": "Same box UVs as RedPoweredMindModel.createLayer (texture size 128x64): no code change. Replaces round 10's entity texture; the item icon stays round 11's."
+  }
+]

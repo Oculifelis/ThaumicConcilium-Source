@@ -1,0 +1,10 @@
+{
+  "parent": "thaumaturge:block/crucible",
+  "textures": {
+    "top": "thaumaturgicconcilium:block/quicksilver_crucible_top",
+    "side": "thaumaturgicconcilium:block/quicksilver_crucible_side",
+    "inner": "thaumaturgicconcilium:block/quicksilver_crucible_inner",
+    "bottom": "thaumaturgicconcilium:block/quicksilver_crucible_bottom",
+    "particle": "thaumaturgicconcilium:block/quicksilver_crucible_side"
+  }
+}

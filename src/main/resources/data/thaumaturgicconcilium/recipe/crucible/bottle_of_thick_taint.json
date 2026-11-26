@@ -1,0 +1,24 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:bottle_taint",
+  "research": {
+    "entry": "thaumaturgicconcilium:bottle_of_thick_taint"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:bottle_of_thick_taint"
+  }
+}

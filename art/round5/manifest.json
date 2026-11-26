@@ -1,0 +1,196 @@
+[
+  {
+    "id": "hex_of_predictability",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability.png",
+    "kin": "thaumaturge:block/ancient_stone_0 + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 4's face: four tiles, four TC4 Hex runes.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability"
+        }
+      },
+      "assets/thaumaturgicconcilium/blockstates/hex_of_predictability.json": {
+        "variants": {
+          "master=false": [
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_2"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_3"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_4"
+            }
+          ],
+          "master=true": [
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_2"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_3"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_4"
+            }
+          ]
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_2",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_2.png",
+    "kin": "thaumaturge:block/ancient_stone_0 + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Four tiles, four other Hex runes, the stone's grain turned a quarter.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_2.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_2"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_3",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_3.png",
+    "kin": "thaumaturge:block/ancient_stone_0 + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Two runes on the diagonal, two plain tiles, the grain mirrored.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_3.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_3"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_4",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_4.png",
+    "kin": "thaumaturge:block/ancient_stone_0 + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Three runes and one plain tile, the grain turned half round.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_4.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_4"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_infernal",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_infernal.png",
+    "kin": "thaumaturge:block/metal_brass + forsakenmagic:item/wand_rod_infernal (core colour) + thaumaturge:item/curiosity_band (gem)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A bold brass bangle filling the slot, a big infernal-core gem at its front.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_infernal.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_infernal"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_tainted",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_tainted.png",
+    "kin": "thaumaturge:block/metal_void + forsakenmagic:item/wand_rod_tainted (core colour) + thaumaturge:item/curiosity_band (gem)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A bold void bangle filling the slot, a big tainted-core gem at its front.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_tainted.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_tainted"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_warpwood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_warpwood.png",
+    "kin": "thaumaturge:block/metal_thaumium + taintedmagic:item/wand_rod_warpwood (core colour) + thaumaturge:item/curiosity_band (gem)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A bold thaumium bangle filling the slot, a big warpwood-core gem at its front.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_warpwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_warpwood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_blood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_blood.png",
+    "kin": "minecraft:block/gold_block + forsakenmagic:item/wand_rod_blood (core colour) + thaumaturge:item/curiosity_band (gem)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A bold gold bangle filling the slot, a big blood-core gem at its front.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_blood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_blood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_witchwood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_witchwood.png",
+    "kin": "minecraft:block/iron_block + forsakenmagic:item/wand_rod_witchwood (core colour) + thaumaturge:item/curiosity_band (gem)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A bold iron bangle filling the slot, a big witchwood-core gem at its front.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_witchwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_witchwood"
+        }
+      }
+    },
+    "animated": false
+  }
+]

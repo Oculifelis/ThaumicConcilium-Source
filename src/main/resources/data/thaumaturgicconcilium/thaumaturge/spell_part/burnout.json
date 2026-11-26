@@ -1,0 +1,18 @@
+{
+  "aspect": "forsakenmagic:ira",
+  "behavior": {
+    "type": "thaumaturgicconcilium:wrath_attraction",
+    "effect": "minecraft:weakness",
+    "effect_ticks": 100,
+    "effect_amplifier": 3,
+    "sound": "thaumaturgicconcilium:ira"
+  },
+  "color": 11674146,
+  "complexity": 6,
+  "icon": "thaumaturgicconcilium:textures/foci/burnout.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:wrath_attraction"
+  },
+  "vis": 15.0,
+  "cooldown_multiplier": 0.5
+}

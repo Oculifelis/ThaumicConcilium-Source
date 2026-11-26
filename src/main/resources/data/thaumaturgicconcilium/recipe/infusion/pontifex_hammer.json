@@ -1,0 +1,55 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 32
+    },
+    {
+      "aspect": "forsakenmagic:superbia",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:crimson_blade",
+  "components": [
+    "thaumaturge:focus_1",
+    "minecraft:gold_block",
+    "taintedmagic:shadowmetal_ingot",
+    "taintedmagic:crystal_blood",
+    "thaumaturge:primordial_pearl",
+    "thaumaturge:staff_rod_greatwood",
+    "thaumaturge:primordial_pearl",
+    "taintedmagic:crystal_blood",
+    "taintedmagic:shadowmetal_ingot",
+    "minecraft:gold_block"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "thaumaturgicconcilium:pontifex_hammer"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:pontifex_hammer"
+  }
+}

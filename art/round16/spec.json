@@ -1,0 +1,23 @@
+{"items": [
+ {"id": "casting_bracelet_manasteel_livingwood", "title": "Manasteel Livingwood Casting Bracelet",
+  "detail": "Thaumaturgic Concilium, Botania compat (approved in concilium-compat-r1). The first of the three Botania Casting Bracelets the original had. Built exactly like the five bracelets already marked Good (round 8: the curiosity band shape, band grain, bevel and specular streak); only the band metal and the gem change. Band: vanilla diamond block tones turned to manasteel blue, with the diamond block's own grain. Gem: vanilla emerald paled to a mint mana stone, so it reads apart from the warpwood bracelet's aqua. No Botania texture is used. Good lets it go into the jar once the code is in; Needs changes says what to move.",
+  "ask": "Is this bracelet Good?",
+  "images": [{"src": "review/casting_bracelet_manasteel_livingwood.png", "caption": "16x, in a slot frame", "pixel": true},
+             {"src": "review/bracelets_all8_slot_1x2x_zoom4.png", "caption": "Beside the five approved bracelets, 1x and 2x slots (new three on the right)", "pixel": true}]},
+ {"id": "casting_bracelet_elementium_dreamwood", "title": "Elementium Dreamwood Casting Bracelet",
+  "detail": "Thaumaturgic Concilium, Botania compat. Same build as the approved bracelets. Band: vanilla amethyst block tones turned to elementium pink, with the amethyst block's grain. Gem: vanilla diamond kept pale as a dreamwood-blue stone, a cool hue against the warm pink band. No Botania texture is used.",
+  "ask": "Is this bracelet Good?",
+  "images": [{"src": "review/casting_bracelet_elementium_dreamwood.png", "caption": "16x, in a slot frame", "pixel": true},
+             {"src": "review/bracelets_all8_slot_1x2x_zoom4.png", "caption": "Beside the five approved bracelets, 1x and 2x slots", "pixel": true}]},
+ {"id": "casting_bracelet_terrasteel", "title": "Terrasteel Casting Bracelet",
+  "detail": "Thaumaturgic Concilium, Botania compat. Same build as the approved bracelets. Band: vanilla emerald block tones turned to a softer terrasteel green, with the emerald block's grain. Gem: vanilla glowstone dust as a warm gold core, picked to stand out on the green. No Botania texture is used.",
+  "ask": "Is this bracelet Good?",
+  "images": [{"src": "review/casting_bracelet_terrasteel.png", "caption": "16x, in a slot frame", "pixel": true},
+             {"src": "review/bracelets_all8_slot_1x2x_zoom4.png", "caption": "Beside the five approved bracelets, 1x and 2x slots", "pixel": true}]},
+ {"id": "withered_botanist", "title": "Withered Botanist skin and page picture",
+  "detail": "Thaumaturgic Concilium, Botania compat (idea-withered-botanist, approved in concilium-compat-r1). The concilium-compat-r1 card said the Botanist needed a new model and texture with a direction round. It turns out the original is the same still biped lying flat as the Nether Explorer, which already ships with its original skin unchanged, and the Sloppy Alchemist ships with its original Thaumonomicon picture. So the plan here keeps the original's CC0 skin and its Thaumonomicon picture pixel for pixel, with no new model. Good keeps both as they are. Needs changes or Bad starts a direction round for a new skin (for example a more withered, dead look), with options to pick from first.",
+  "ask": "Keep the original skin and picture?",
+  "images": [{"src": "review/withered_botanist_vs_nether_explorer_top.png", "caption": "Lying on grass seen from above: Withered Botanist (left) beside the shipped Nether Explorer (right)", "pixel": true},
+             {"src": "review/withered_botanist_skin.png", "caption": "The original 64x32 skin at 10x", "pixel": true},
+             {"src": "entity/withered_botanist_research.png", "caption": "The original Thaumonomicon picture (256x256)", "pixel": false}]}
+]}

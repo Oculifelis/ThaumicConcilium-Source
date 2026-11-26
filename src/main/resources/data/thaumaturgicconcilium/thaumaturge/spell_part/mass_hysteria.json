@@ -1,0 +1,18 @@
+{
+  "aspect": "thaumaturge:alienis",
+  "behavior": {
+    "type": "thaumaturgicconcilium:warp_extraction",
+    "summon_sound": "thaumaturgicconcilium:breath",
+    "charge": {
+      "whisper": "thaumaturgicconcilium:whispers",
+      "mass_hysteria": true
+    }
+  },
+  "color": 8200587,
+  "complexity": 7,
+  "icon": "thaumaturgicconcilium:textures/foci/mass_hysteria.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:warp_extraction_focus"
+  },
+  "vis": 3.2
+}

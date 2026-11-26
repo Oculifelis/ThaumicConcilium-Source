@@ -1,0 +1,24 @@
+// Fails the build when an id under an old namespace is left in the mod's data, code or structure files.
+// Set old_namespaces=a,b in gradle.properties. Structure .nbt files are decompressed before the search.
+tasks.register('checkOldNamespaces') {
+    group = 'verification'
+    description = 'Fails if an old mod namespace is still used in src/main/resources (data, assets, structure files).'
+    doLast {
+        def olds = (project.findProperty('old_namespaces') ?: '').toString().split(',')*.trim().findAll { it }
+        if (olds.isEmpty()) return
+        def hits = []
+        fileTree('src/main/resources') { include '**/*' }.each { f ->
+            if (!f.isFile()) return
+            byte[] raw = f.bytes
+            if (raw.length > 2 && (raw[0] & 0xff) == 0x1f && (raw[1] & 0xff) == 0x8b) {
+                try { raw = new java.util.zip.GZIPInputStream(new ByteArrayInputStream(raw)).bytes } catch (Exception e) { }
+            }
+            String text = new String(raw, 'ISO-8859-1').toLowerCase()
+            olds.each { o ->
+                if (text.contains(o.toLowerCase())) hits << "${f} still mentions '${o}'"
+            }
+        }
+        if (!hits.isEmpty()) throw new GradleException("Old namespace left in the mod:\n  " + hits.join('\n  '))
+    }
+}
+tasks.matching { it.name == 'processResources' || it.name == 'compileJava' }.configureEach { dependsOn 'checkOldNamespaces' }

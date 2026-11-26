@@ -1,0 +1,56 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.brightest_one.title",
+  "parents": [
+    "thaumaturgicconcilium:hex_of_predictability",
+    "thaumaturgicconcilium:thaumaturge_drum"
+  ],
+  "column": 12,
+  "row": 3,
+  "icons": [
+    "thaumaturgicconcilium:textures/misc/brightest.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.brightest_one.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicconcilium.brightest_one.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 5
+    },
+    {
+      "aspect": "forsakenmagic:superbia",
+      "amount": 5
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "round"
+  ]
+}

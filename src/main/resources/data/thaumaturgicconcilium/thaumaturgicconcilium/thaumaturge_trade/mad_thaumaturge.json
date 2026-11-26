@@ -1,0 +1,33 @@
+{
+  "hint_chance": 0.2,
+  "hints": [
+    {
+      "research": "thaumaturgicconcilium:reflection_focus",
+      "category": "thaumaturge:auromancy",
+      "weight": 2,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.reflection_focus"
+    },
+    {
+      "research": "thaumaturgicconcilium:bottle_of_thick_taint",
+      "category": "thaumaturge:alchemy",
+      "weight": 1,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.bottle_of_thick_taint"
+    },
+    {
+      "research": "thaumaturgicconcilium:runic_windings",
+      "category": "thaumaturge:infusion",
+      "weight": 1,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.runic_windings"
+    },
+    {
+      "research": "thaumaturgicconcilium:destabilized_crystal",
+      "category": "thaumaturge:artifice",
+      "weight": 1,
+      "observation": 1,
+      "text": "message.thaumaturgicconcilium.hint.destabilized_crystal"
+    }
+  ]
+}

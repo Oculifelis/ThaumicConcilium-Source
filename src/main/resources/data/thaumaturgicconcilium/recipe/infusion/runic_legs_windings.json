@@ -1,0 +1,50 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 32
+    }
+  ],
+  "catalyst": "minecraft:paper",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:nitor_yellow",
+    "minecraft:paper",
+    "minecraft:paper",
+    "forsakenmagic:crystalwell",
+    "minecraft:diamond",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:praecantatio"
+        }
+      }
+    }
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumaturgicconcilium:runic_windings"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:runic_legs_windings"
+  }
+}

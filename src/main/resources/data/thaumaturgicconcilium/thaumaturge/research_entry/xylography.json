@@ -1,0 +1,39 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.xylography.title",
+  "parents": [],
+  "column": 8,
+  "row": 4,
+  "meta": [
+    "round"
+  ],
+  "icons": [
+    "thaumaturge:wand"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.xylography.stage_0"
+    },
+    {
+      "text": "research.thaumaturgicconcilium.xylography.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:crafting/xylography"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 1
+    }
+  ],
+  "complexity": 1
+}

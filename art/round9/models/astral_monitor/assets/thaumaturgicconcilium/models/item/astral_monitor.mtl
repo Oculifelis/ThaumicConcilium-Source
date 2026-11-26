@@ -1,0 +1,10 @@
+# astral monitor materials: textures come from the model JSON's #body and #pane slots
+newmtl body
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd #body
+
+newmtl pane
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd #pane

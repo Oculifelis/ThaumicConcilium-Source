@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:girdle_fancy",
+  "components": [
+    "thaumaturgicconcilium:bottle_of_thick_taint",
+    "thaumaturgicconcilium:bottle_of_thick_taint",
+    "thaumaturge:tainted_goo",
+    "thaumaturge:tainted_goo",
+    "forsakenmagic:taint_shard",
+    "forsakenmagic:taint_shard",
+    "forsakenmagic:taint_shard",
+    "forsakenmagic:taint_shard",
+    "thaumaturge:taint_tendril",
+    "thaumaturge:taint_tendril"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "thaumaturgicconcilium:tight_belt"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:tight_belt"
+  }
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "red_powered_mind",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/red_powered_mind.png",
+    "kin": "hand-drawn 16x16 grid (tools/art_round11_textures.py ICON), edged like vanilla beef/spider_eye",
+    "original": "art/round10/item/red_powered_mind.png",
+    "group": "Red Powered Mind",
+    "summary": "Redrawn by hand in Jappa's manner: no dark outline, the rim a darker saturated shade of the flesh (crimson top/left, deep purple-crimson bottom/right); a clean brain silhouette with the fissure, one fold per lobe and a lower temporal fold; a peach highlight cluster top-left on a ramp running purple-crimson -> pink-red -> peach; two small glowing red eyes under a shaded brow; a small olive stem.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/red_powered_mind.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/red_powered_mind"
+        }
+      }
+    },
+    "animated": false,
+    "note": "Replaces round 10's icon; the entity texture from round 10 is unchanged."
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgicbases"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.witchwood_bracelet.title",
+  "parents": [
+    "thaumaturgicconcilium:thaumic_bases"
+  ],
+  "column": 17,
+  "row": 10,
+  "icons": [
+    "thaumaturgicconcilium:casting_bracelet_witchwood"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.witchwood_bracelet.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ],
+      "recipes": [
+        "thaumaturgicconcilium:infusion/casting_bracelet_witchwood"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "astral_monitor",
+    "kind": "item_model",
+    "target": "art/round10/models/astral_monitor/ (copy its assets/ tree into src/main/resources over round 9's)",
+    "kin": "thaumaturge:item/scanner, scanscreen as UV guides only; hues from metal_brass, amethyst, lapis",
+    "original": "_reference/ThaumicConcilium/.../textures/models/atsral_frame.png",
+    "group": "Models",
+    "summary": "The approved thaumometer model repainted by hand: crisp brass rims with 1px highlight and shadow, even violet channels, readable starlight runes, round sapphires with a highlight pixel, stars on the back, a clean indigo lens with a small constellation.",
+    "model_change": {
+      "tree": "art/round10/models/astral_monitor",
+      "add_files": [
+        "assets/thaumaturgicconcilium/textures/item/astral_monitor_frame.png",
+        "assets/thaumaturgicconcilium/textures/item/astral_monitor_lens.png"
+      ],
+      "replace": [
+        "assets/thaumaturgicconcilium/textures/item/astral_monitor_frame.png",
+        "assets/thaumaturgicconcilium/textures/item/astral_monitor_lens.png"
+      ],
+      "note": "Textures only; round 9's OBJ, mtl, model JSON and display transforms stay as they are (apply round 9's tree first, then this one). The frame keeps scanner.png's alpha exactly; no colour is taken from scanner.png."
+    },
+    "animated": false
+  },
+  {
+    "id": "drainage_syringe",
+    "kind": "item_model",
+    "target": "art/round10/syringe_model/ (copy its assets/ tree into src/main/resources)",
+    "kin": "round 4's syringe model (TC4 syringe.obj, CC0); vanilla shears on item/handheld for scale",
+    "original": "_reference/ThaumicConcilium/.../client/render/item/DrainageSyringeRenderer.java (the hold)",
+    "group": "Models",
+    "summary": "Held like TC4's syringe: in first person large and nearly level, needle forward into the screen and a little left, barrel and plunger at lower right; in third person pointed forward from the fist; gui fills the slot.",
+    "model_change": {
+      "tree": "art/round10/syringe_model",
+      "add_files": [
+        "assets/thaumaturgicconcilium/items/drainage_syringe.json",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe.json",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe.mtl",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe.obj",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe_filled.json",
+        "assets/thaumaturgicconcilium/textures/item/drainage_syringe.png",
+        "assets/thaumaturgicconcilium/textures/item/drainage_syringe_filled.png"
+      ],
+      "replace": [
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe.json (display only)",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe_filled.json (display only)"
+      ],
+      "note": "OBJ, mtl, textures and items JSON copied from round 4 unchanged (the 45 degree rest pose is kept: it is the gui/ground/frame pose, and the hand poses are solved from it). Left-hand entries are solved for the left hand and written pre-negated for vanilla's left-hand fix. Checked with the round 9 renderer (vanilla's transform code), not in game. TC4 also drew the arm and a cap; those need Java and are not here.",
+      "display": {
+        "gui": {
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "translation": [
+            1.14,
+            -0.08,
+            0
+          ],
+          "scale": [
+            1.27,
+            1.27,
+            1.27
+          ]
+        },
+        "ground": {
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "translation": [
+            0,
+            2,
+            0
+          ],
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ]
+        },
+        "fixed": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -1.14,
+            -0.08,
+            0
+          ],
+          "scale": [
+            1.3,
+            1.3,
+            1.3
+          ]
+        },
+        "head": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            0,
+            13,
+            7
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "thirdperson_righthand": {
+          "rotation": [
+            -20.8,
+            -0.3,
+            50.7
+          ],
+          "translation": [
+            -0.3,
+            4.91,
+            -0.74
+          ],
+          "scale": [
+            1.1,
+            1.1,
+            1.1
+          ]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [
+            -20.8,
+            -0.3,
+            -39.3
+          ],
+          "translation": [
+            -0.3,
+            4.91,
+            -0.74
+          ],
+          "scale": [
+            1.1,
+            1.1,
+            1.1
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            -88.6,
+            4.8,
+            67.8
+          ],
+          "translation": [
+            -5.63,
+            4.21,
+            -5.59
+          ],
+          "scale": [
+            1.4,
+            1.4,
+            1.4
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            -88.6,
+            4.8,
+            -22.2
+          ],
+          "translation": [
+            -5.63,
+            4.21,
+            -5.59
+          ],
+          "scale": [
+            1.4,
+            1.4,
+            1.4
+          ]
+        }
+      }
+    },
+    "animated": false
+  }
+]

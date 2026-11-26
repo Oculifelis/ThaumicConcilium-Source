@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:permutatio",
+  "behavior": {
+    "type": "thaumaturgicconcilium:vis_conductor",
+    "sound": "thaumaturge:jacobs"
+  },
+  "color": 11184810,
+  "complexity": 5,
+  "icon": "thaumaturgicconcilium:textures/foci/vis_conductor.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:vis_conductor"
+  },
+  "vis": 0.6
+}

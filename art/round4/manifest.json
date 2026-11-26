@@ -1,0 +1,322 @@
+[
+  {
+    "id": "hex_of_predictability",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability.png",
+    "kin": "thaumaturge:block/ancient_stone_0 + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Ancient stone in four bevelled tiles, each cut with one of the TC4 Hex's own runes glowing ember-orange.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "lithographer",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/lithographer.png",
+    "kin": "thaumaturge:block/advanced_alchemical_construct + arcane_stone_1",
+    "original": "_reference/ThaumicConcilium/.../textures/models/lithographer.png",
+    "group": "Blocks",
+    "summary": "A brass-and-dark-oak press frame round four sunken arcane-stone panels, each cut with a TC4 rune inked in vis violet.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/lithographer.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/lithographer"
+        }
+      },
+      "assets/thaumaturgicconcilium/blockstates/lithographer.json": {
+        "variants": {
+          "axis=x": {
+            "model": "thaumaturgicconcilium:block/lithographer"
+          },
+          "axis=z": {
+            "model": "thaumaturgicconcilium:block/lithographer",
+            "y": 90
+          }
+        }
+      },
+      "assets/thaumaturgicconcilium/items/lithographer.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:block/lithographer"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "vis_condenser_side",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/vis_condenser_side.png",
+    "kin": "thaumaturge:block/pedestal_side + infuser_normal glyphs",
+    "original": "_reference/ThaumicConcilium/.../textures/models/vis_condenser.png",
+    "group": "Blocks",
+    "summary": "The brass arcane pedestal's side with its column cut by two arcane-infuser glyphs and rune strokes on the foot, glowing vis violet.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/vis_condenser.json": {
+        "parent": "thaumaturge:block/pedestal_arcane",
+        "textures": {
+          "side": "thaumaturgicconcilium:block/vis_condenser_side",
+          "top": "thaumaturgicconcilium:block/vis_condenser_top",
+          "particle": "thaumaturgicconcilium:block/vis_condenser_side"
+        }
+      },
+      "assets/thaumaturgicconcilium/blockstates/vis_condenser.json": {
+        "variants": {
+          "": {
+            "model": "thaumaturgicconcilium:block/vis_condenser"
+          }
+        }
+      },
+      "assets/thaumaturgicconcilium/items/vis_condenser.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:block/vis_condenser"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "vis_condenser_top",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/vis_condenser_top.png",
+    "kin": "thaumaturge:block/pedestal_top + infuser_normal glyphs",
+    "original": "_reference/ThaumicConcilium/.../textures/models/vis_condenser.png",
+    "group": "Blocks",
+    "summary": "The brass pedestal top round a small sunken vis crystal, a glowing infuser glyph cut in each corner.",
+    "model_change": "see vis_condenser_side",
+    "animated": false
+  },
+  {
+    "id": "quicksilver_crucible_side",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/quicksilver_crucible_side.png",
+    "kin": "thaumaturge:block/crucible_side + infuser_normal glyphs",
+    "original": "_reference/ThaumicConcilium/.../textures/blocks/quicksilver_crucible.png",
+    "group": "Blocks",
+    "summary": "The quicksilver crucible's side (round 3's mercury retexture) cut with glowing quicksilver runes.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/quicksilver_crucible.json": {
+        "parent": "thaumaturge:block/crucible",
+        "textures": {
+          "top": "thaumaturgicconcilium:block/quicksilver_crucible_top",
+          "side": "thaumaturgicconcilium:block/quicksilver_crucible_side",
+          "inner": "thaumaturgicconcilium:block/quicksilver_crucible_inner",
+          "bottom": "thaumaturgicconcilium:block/quicksilver_crucible_bottom",
+          "particle": "thaumaturgicconcilium:block/quicksilver_crucible_side"
+        }
+      },
+      "assets/thaumaturgicconcilium/blockstates/quicksilver_crucible.json": {
+        "variants": {
+          "": {
+            "model": "thaumaturgicconcilium:block/quicksilver_crucible"
+          }
+        }
+      },
+      "assets/thaumaturgicconcilium/items/quicksilver_crucible.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:block/quicksilver_crucible"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "quicksilver_crucible_top",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/quicksilver_crucible_top.png",
+    "kin": "thaumaturge:block/crucible_top + infuser_normal glyphs",
+    "original": "_reference/ThaumicConcilium/.../textures/blocks/quicksilver_crucible.png",
+    "group": "Blocks",
+    "summary": "The quicksilver crucible's top (round 3's mercury retexture) cut with glowing quicksilver runes.",
+    "model_change": "see quicksilver_crucible_side",
+    "animated": false
+  },
+  {
+    "id": "quicksilver_crucible_inner",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/quicksilver_crucible_inner.png",
+    "kin": "thaumaturge:block/crucible_inner + infuser_normal glyphs",
+    "original": "_reference/ThaumicConcilium/.../textures/blocks/quicksilver_crucible.png",
+    "group": "Blocks",
+    "summary": "The quicksilver crucible's inner (round 3's mercury retexture) cut with glowing quicksilver runes.",
+    "model_change": "see quicksilver_crucible_side",
+    "animated": false
+  },
+  {
+    "id": "quicksilver_crucible_bottom",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/quicksilver_crucible_bottom.png",
+    "kin": "thaumaturge:block/crucible_bottom + infuser_normal glyphs",
+    "original": "_reference/ThaumicConcilium/.../textures/blocks/quicksilver_crucible.png",
+    "group": "Blocks",
+    "summary": "The quicksilver crucible's bottom (round 3's mercury retexture) cut with glowing quicksilver runes.",
+    "model_change": "see quicksilver_crucible_side",
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_infernal",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_infernal.png",
+    "kin": "thaumaturge:block/metal_brass + forsakenmagic:item/wand_rod_infernal (core colour)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A brass bangle (curiosity band shape) set with a glowing gem in the infernal core's own colours.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_infernal.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_infernal"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_tainted",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_tainted.png",
+    "kin": "thaumaturge:block/metal_void + forsakenmagic:item/wand_rod_tainted (core colour)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A void bangle (curiosity band shape) set with a glowing gem in the tainted core's own colours.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_tainted.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_tainted"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_warpwood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_warpwood.png",
+    "kin": "thaumaturge:block/metal_thaumium + taintedmagic:item/wand_rod_warpwood (core colour)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A thaumium bangle (curiosity band shape) set with a glowing gem in the warpwood core's own colours.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_warpwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_warpwood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_blood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_blood.png",
+    "kin": "minecraft:block/gold_block + forsakenmagic:item/wand_rod_blood (core colour)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A gold bangle (curiosity band shape) set with a glowing gem in the blood core's own colours.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_blood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_blood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_witchwood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_witchwood.png",
+    "kin": "minecraft:block/iron_block + forsakenmagic:item/wand_rod_witchwood (core colour)",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "A iron bangle (curiosity band shape) set with a glowing gem in the witchwood core's own colours.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_witchwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_witchwood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "golem_bydlo",
+    "kind": "entity",
+    "target": "assets/thaumaturgicconcilium/textures/entity/golem_bydlo.png",
+    "kin": "minecraft:entity/iron_golem/iron_golem",
+    "original": null,
+    "group": "Golem Bydlo",
+    "summary": "iron_golem.png hue-shifted to thaumium violet pixel by pixel, brightness untouched (full range kept).",
+    "model_change": {
+      "java": "src/main/java/com/thaumaturgicconcilium/compat/horizons/client/GolemBydloRenderer.java",
+      "change": "TEXTURE = ThaumicConcilium.id(\"textures/entity/golem_bydlo.png\") instead of the vanilla iron golem sheet"
+    },
+    "animated": false
+  },
+  {
+    "id": "pontifex_hammer",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/pontifex_hammer.png",
+    "kin": "minecraft:item/mace",
+    "original": "_reference/ThaumicConcilium/.../textures/models/Molot.png",
+    "group": "Pontifex gear",
+    "summary": "The mace sprite as the Pontifex's hammer: gold head, dark oak haft, the red gem now its pommel.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/pontifex_hammer.json": {
+        "parent": "minecraft:item/handheld",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/pontifex_hammer"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/pontifex_hammer.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/pontifex_hammer"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "drainage_syringe",
+    "kind": "item_model",
+    "target": "art/round4/syringe_model/ (copy its assets/ tree into src/main/resources)",
+    "kin": "TC4 syringe.obj + syringe.png (the original model, CC0)",
+    "original": "_reference/ThaumicConcilium/.../models/syringe.obj + textures/items/syringe.png",
+    "group": "Syringe and seals",
+    "summary": "The TC4 syringe .obj ported to NeoForge's neoforge:obj loader with its own texture; filled shows the vial full of 0x9700C0 vis (second texture).",
+    "model_change": {
+      "add_files": [
+        "assets/thaumaturgicconcilium/items/drainage_syringe.json",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe.json",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe.mtl",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe.obj",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe_filled.json",
+        "assets/thaumaturgicconcilium/textures/item/drainage_syringe.png",
+        "assets/thaumaturgicconcilium/textures/item/drainage_syringe_filled.png"
+      ],
+      "replace": [
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe.json",
+        "assets/thaumaturgicconcilium/models/item/drainage_syringe_filled.json",
+        "assets/thaumaturgicconcilium/items/drainage_syringe.json (tints dropped; the fill is in the texture)"
+      ],
+      "note": "obj vertices scaled from the TC4 5.18-block length into 0..1 (centred on 0.5); mtllib renamed from the Cyrillic Blender names; map_Kd is the #syringe texture slot; flip_v true as TC4's 1.7.10 loader flipped V. display transforms are first guesses, not checked in game."
+    },
+    "animated": false
+  }
+]

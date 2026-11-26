@@ -1,0 +1,55 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.positive_burst_focus.title",
+  "parents": [
+    "thaumaturgicconcilium:signal_focus",
+    "thaumaturge:focus_heal"
+  ],
+  "column": 0,
+  "row": 4,
+  "icons": [
+    "thaumaturge:focus_1"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.positive_burst_focus.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicconcilium.positive_burst_focus.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:infusion/focus_positive_burst_focus"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 5
+    }
+  ],
+  "complexity": 3
+}

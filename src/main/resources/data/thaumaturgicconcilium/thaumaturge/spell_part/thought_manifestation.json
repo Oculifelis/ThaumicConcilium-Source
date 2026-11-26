@@ -1,0 +1,15 @@
+{
+  "aspect": "thaumaturge:vitium",
+  "behavior": {
+    "type": "thaumaturgicconcilium:taint_animation",
+    "strength_effect": "minecraft:strength",
+    "thought_manifestation": true
+  },
+  "color": 10178476,
+  "complexity": 7,
+  "icon": "thaumaturgicconcilium:textures/foci/thought_manifestation.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:taint_animation"
+  },
+  "vis": 0.78
+}

@@ -1,0 +1,11 @@
+.gradle/
+build/
+run/
+libs/*.jar
+*.log
+.idea/
+out/
+__pycache__/
+run_client.log
+libs/**/*.jar
+run_server_partners.log

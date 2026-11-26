@@ -1,0 +1,56 @@
+[
+  {
+    "id": "vis_condenser_side",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/vis_condenser_side.png",
+    "kin": "hand-drawn pixel grid (tools/art_round10_textures.py SIDE/TOP); model thaumaturge:block/pedestal_arcane (default UVs)",
+    "original": "art/round9/models/vis_condenser (round 9 brass version)",
+    "group": "Vis Condenser",
+    "summary": "Drawn by hand: cap band (rows 0-3) with a near-white top edge, two rivets and a black-brown underside shadow; column (rows 4-11) occluded under the cap and above the foot, lit left edge, dark right edge, a violet vis window framed in brass with a hot highlight in its upper-left; foot (rows 12-15) with a glinting top edge, two rivets and a dark base. Eight brass tones, a few one-step wear pixels.",
+    "model_change": {},
+    "animated": false,
+    "note": "Model/blockstate/items JSON unchanged. Replaces round 9's vis_condenser_side/top."
+  },
+  {
+    "id": "vis_condenser_top",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/vis_condenser_top.png",
+    "kin": "hand-drawn pixel grid (tools/art_round10_textures.py SIDE/TOP); model thaumaturge:block/pedestal_arcane (default UVs)",
+    "original": "art/round9/models/vis_condenser (round 9 brass version)",
+    "group": "Vis Condenser",
+    "summary": "Drawn by hand: the foot's top ring (outer 2px) lit on top/left, occluded right under the cap; the cap's top with a 1px glint rim, a chunky 2-step bevel, and a socket (shadowed top/left inner walls, lit bottom/right) holding a four-facet vis crystal: bright upper-left facet, white point, dark lower-right.",
+    "model_change": {},
+    "animated": false,
+    "note": "Model/blockstate/items JSON unchanged. Replaces round 9's vis_condenser_side/top."
+  },
+  {
+    "id": "red_powered_mind_entity",
+    "kind": "entity",
+    "target": "assets/thaumaturgicconcilium/textures/entity/red_powered_mind.png",
+    "kin": "the old texture's own flesh/red/olive tones + thaumaturge:block/flesh_block (grain)",
+    "original": "src/main/resources/assets/thaumaturgicconcilium/textures/entity/red_powered_mind.png (256x128)",
+    "group": "Red Powered Mind",
+    "summary": "Remade at the model's own 128x64 (was 256x128 = twice the texel density): chunky 2-3px brain folds in three tones (groove, fold, lit ridge, light from the top-left), a midline fissure on top and front/back, flesh shading into the old olive underside, a few redstone-red veins, the two red eyes on the front, a striped dark-pink cerebellum lobe, a ringed tan stem/cord with a red line.",
+    "model_change": {},
+    "animated": false,
+    "note": "Same box UVs as RedPoweredMindModel.createLayer (texture size 128x64): no code change."
+  },
+  {
+    "id": "red_powered_mind",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/red_powered_mind.png",
+    "kin": "same tones and fold shading as the entity texture",
+    "original": "src/main/resources/assets/thaumaturgicconcilium/textures/item/red_powered_mind.png (32x32)",
+    "group": "Red Powered Mind",
+    "summary": "A 16x16 vanilla-style brain sprite (was 32x32): rounded brain with chunky folds, the fissure down the front, two glowing red eyes, olive underside, a short stem with a red cord, dark flesh outline, glint top-left.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/red_powered_mind.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/red_powered_mind"
+        }
+      }
+    },
+    "animated": false
+  }
+]

@@ -1,0 +1,413 @@
+{
+  "replace": false,
+  "values": {
+    "thaumaturgicconcilium:thaumaturge": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:auram",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:mad_thaumaturge": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:dissolved": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:quicksilver_elemental": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:vengeful_golem": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 4
+      },
+      {
+        "aspect": "forsakenmagic:superbia",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:overanimated": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:thaum_gib": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:taint_spider_smart": [
+      {
+        "aspect": "thaumaturge:vitium",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:vinculum",
+        "amount": 2
+      }
+    ],
+    "thaumaturgicconcilium:nether_explorer": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "forsakenmagic:infernus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:dope_squid": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumichorizons"
+        },
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturgicbases"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:humanus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 4
+        }
+      ]
+    },
+    "thaumaturgicconcilium:golem_bydlo": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumichorizons"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 8
+        },
+        {
+          "aspect": "thaumaturge:machina",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:humanus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 4
+        }
+      ]
+    },
+    "thaumaturgicconcilium:red_powered_mind": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumichorizons"
+        },
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "automagia"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:cognitio",
+          "amount": 8
+        },
+        {
+          "aspect": "thaumaturge:machina",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:sensus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 2
+        }
+      ]
+    },
+    "thaumaturgicconcilium:paranoid_warrior": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:crimson_paladin": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:crimson_archer": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:crimson_ranger": [
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:flux_rift": [
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 16
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 32
+      }
+    ],
+    "thaumaturgicconcilium:brightest_one": [
+      {
+        "aspect": "thaumaturge:auram",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:crimson_pontifex": [
+      {
+        "aspect": "thaumaturge:spiritus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:lesser_crimson_portal": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      }
+    ],
+    "thaumaturgicconcilium:material_peeler": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 8
+      }
+    ],
+    "thaumaturgicconcilium:protolimb": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:humanus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,480 @@
+[
+  {
+    "id": "thaumaturge_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/thaumaturge_spawn_egg.png",
+    "kin": "minecraft:item/witch_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "Round 3's approved design (The witch egg's hatted head recoloured to the Thaumaturge's own brown hat, skin, violet robe and gold trim) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: the Thaumaturge's goggles (kept from round 3).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/thaumaturge_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/thaumaturge_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "mad_thaumaturge_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/mad_thaumaturge_spawn_egg.png",
+    "kin": "minecraft:item/witch_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "Round 3's approved design (The witch egg again, in the Mad Thaumaturge's ragged browns, torn grey robe and blood-red stains) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: the Thaumaturge's goggles (kept from round 3).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/mad_thaumaturge_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/mad_thaumaturge_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "dissolved_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/dissolved_spawn_egg.png",
+    "kin": "minecraft:item/enderman_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "Round 3's approved design (The enderman egg (the Dissolved use the ender body) sunk into void metal, its magenta flecks gone to flux pink) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/dissolved_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/dissolved_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "quicksilver_elemental_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/quicksilver_elemental_spawn_egg.png",
+    "kin": "minecraft:item/zombie_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "Round 3's approved design (The zombie egg's humanoid head poured in the Quicksilver Elemental's own mercury greys, brightest at the head) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: bright mercury beads.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/quicksilver_elemental_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/quicksilver_elemental_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "vengeful_golem_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/vengeful_golem_spawn_egg.png",
+    "kin": "minecraft:item/iron_golem_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "Round 3's approved design (The iron golem egg in the Vengeful Golem's violet, its grey face kept grey and the vines turned to gold trim) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: glowing flux eyes.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/vengeful_golem_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/vengeful_golem_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "overanimated_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/overanimated_spawn_egg.png",
+    "kin": "minecraft:item/zombie_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "Round 3's approved design (The zombie egg (a body that will not lie down) in the Overanimated's skin, violet robe and brown leather) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: the robe's gold trim seam; two raw wounds.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/overanimated_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/overanimated_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "golem_bydlo_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/golem_bydlo_spawn_egg.png",
+    "kin": "minecraft:item/iron_golem_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "Round 3's approved design (The iron golem egg cast in thaumium (the metal block's own violets), its vines left growing) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/golem_bydlo_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/golem_bydlo_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "taint_spider_smart_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/taint_spider_smart_spawn_egg.png",
+    "kin": "minecraft:item/spider_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "Round 3's approved design (The spider egg in the taint crawler's purples, its eyes the crawler's glowing flux pink) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/taint_spider_smart_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/taint_spider_smart_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "nether_explorer_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/nether_explorer_spawn_egg.png",
+    "kin": "minecraft:item/zombified_piglin_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "Round 3's approved design (The zombified piglin egg in the Nether Explorer's pale bone greys over its own dark grey kit) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/nether_explorer_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/nether_explorer_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "thaum_gib_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/thaum_gib_spawn_egg.png",
+    "kin": "minecraft:item/husk_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "Round 3's approved design (The husk egg's dried flesh in the Thaumaturge's skin and hat browns: an Alive Limb torn from an Overanimated) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: a stitched tear; raw flesh spots.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/thaum_gib_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/thaum_gib_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "paranoid_warrior_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/paranoid_warrior_spawn_egg.png",
+    "kin": "minecraft:item/wither_skeleton_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "Round 3's approved design (The wither skeleton egg's dark bones in the Paranoid Warrior's black coat shading up into its violet robe) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: the coat's gold zigzag hem.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/paranoid_warrior_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/paranoid_warrior_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "crimson_paladin_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/crimson_paladin_spawn_egg.png",
+    "kin": "minecraft:item/evoker_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "Round 3's approved design (The evoker egg (a robed caster) in the Crimson Paladin's grey helm, violet robe and gold trim) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/crimson_paladin_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/crimson_paladin_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "crimson_archer_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/crimson_archer_spawn_egg.png",
+    "kin": "minecraft:item/pillager_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "Round 3's approved design (The pillager egg (the crossbow raider) in the Crimson Archer's skin and dark crimson hood and leathers) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/crimson_archer_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/crimson_archer_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "crimson_ranger_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/crimson_ranger_spawn_egg.png",
+    "kin": "minecraft:item/vindicator_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "Round 3's approved design (The vindicator egg in the crimson cultist's robe reds and leather browns (the Ranger wears the cultist look)) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/crimson_ranger_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/crimson_ranger_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "crimson_pontifex_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/crimson_pontifex_spawn_egg.png",
+    "kin": "thaumaturge:item/cultist_leader_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "Round 3's approved design (Thaumaturge's cultist leader egg with its robe turned to the Pontifex's white vestment and the sigil in cult red) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/crimson_pontifex_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/crimson_pontifex_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "brightest_one_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/brightest_one_spawn_egg.png",
+    "kin": "thaumaturge:item/wisp_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "Round 3's approved design (Thaumaturge's wisp egg burning in glowstone's golds: the Brightest One is a ball of living light) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/brightest_one_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/brightest_one_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "lesser_crimson_portal_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/lesser_crimson_portal_spawn_egg.png",
+    "kin": "thaumaturge:item/cultist_portal_lesser_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "Round 3's approved design (Thaumaturge's lesser cultist portal egg with its blue void turned to a deep crimson rift) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/lesser_crimson_portal_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/lesser_crimson_portal_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "protolimb_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/protolimb_spawn_egg.png",
+    "kin": "minecraft:item/endermite_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "Round 3's approved design (The endermite egg made of End sky (the end_sky texture's own violets), its bright flecks turned to stars) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/protolimb_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/protolimb_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "chort_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/chort_spawn_egg.png",
+    "kin": "minecraft:item/piglin_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "Round 3's approved design (The piglin egg (a snouted demon's head) in the Chort's own blue-black hide with its crimson flank) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: glowing red eyes.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/chort_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/chort_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "sloppy_alchemist_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/sloppy_alchemist_spawn_egg.png",
+    "kin": "minecraft:item/zombie_villager_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "Round 3's approved design (The zombie villager egg with the Sloppy Alchemist's pale blonde face over its dark maroon coat) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: her blue eyes; a green potion splash.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/sloppy_alchemist_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/sloppy_alchemist_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "burned_witch_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/burned_witch_spawn_egg.png",
+    "kin": "minecraft:item/witch_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "Round 3's approved design (The witch egg charred: the Burned Witch's soot-black hat and robe with her singed orange hair) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint. Markings: smouldering embers.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/burned_witch_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/burned_witch_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "red_powered_mind_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/red_powered_mind_spawn_egg.png",
+    "kin": "minecraft:item/strider_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "Round 3's approved design (The strider egg's wrinkled lump in the Red Powered Mind's raw brain reds with its green veining underneath) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/red_powered_mind_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/red_powered_mind_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "dope_squid_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/dope_squid_spawn_egg.png",
+    "kin": "minecraft:item/glow_squid_spawn_egg (luminance-ratio recolour) + the mob's entity texture (palette)",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "Round 3's approved design (The glow squid egg in the Dope Squid's orange-brown, its glow spots kept as the squid's pale freckles) redone so it is not flat: every pixel keeps the vanilla egg's own brightness against its neighbours (rim, shading, speckle), plus an upper-left light, shell grain on flat areas and a glossy glint.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/dope_squid_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/dope_squid_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "terra_cast_gem",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/terra_cast_gem.png",
+    "kin": "Malcolm Riley unused-textures items/gem_peridot_large.png (CC BY 4.0) + minecraft:block/coarse_dirt, moss_block (palette)",
+    "original": null,
+    "group": "Gems",
+    "summary": "Malcolm Riley's large octahedral gem (gem_peridot_large, CC BY 4.0) gradient-mapped from coarse dirt's browns in the shadowed lower facets up through moss block's greens to a pale lime top facet: all of his facet steps, rim and highlight kept, only the colour changed to Terra.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/terra_cast_gem.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/terra_cast_gem"
+        }
+      }
+    },
+    "animated": false,
+    "credit": "Malcolm Riley, unused-textures, CC BY 4.0 (art/round9/CREDITS-riley.md)"
+  },
+  {
+    "id": "terra_cast_gem_inert",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/terra_cast_gem_inert.png",
+    "kin": "Malcolm Riley unused-textures items/gem_peridot_large.png (CC BY 4.0) + minecraft:block/coarse_dirt, moss_block (palette)",
+    "original": null,
+    "group": "Gems",
+    "summary": "The same Riley gem in dead earth: the Terra map drained to a third of its saturation and pulled toward grey-brown, the top highlight dimmed, so it reads as the spent stone of the lit one.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/terra_cast_gem_inert.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/terra_cast_gem_inert"
+        }
+      }
+    },
+    "animated": false,
+    "credit": "Malcolm Riley, unused-textures, CC BY 4.0 (art/round9/CREDITS-riley.md)"
+  },
+  {
+    "id": "rift_gem",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/rift_gem.png",
+    "kin": "art/round3/item/rift_gem.png (approved) + art_round3 FLUX palette",
+    "original": null,
+    "group": "Gems",
+    "summary": "The approved Gem of Rifts sprite, shape and palette unchanged, now animated: 12 frames x 5 ticks, interpolated (a 3 s loop), a soft band of its flux pink drifting down the crystal's long axis. Ships with rift_gem.png.mcmeta. The inert gem stays static (unchanged).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/rift_gem.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/rift_gem"
+        }
+      }
+    },
+    "animated": true,
+    "extra_files": {
+      "assets/thaumaturgicconcilium/textures/item/rift_gem.png.mcmeta": {
+        "animation": {
+          "frametime": 5,
+          "interpolate": true
+        }
+      }
+    }
+  }
+]

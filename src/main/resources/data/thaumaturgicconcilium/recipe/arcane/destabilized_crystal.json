@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:arcane_workbench_shapeless",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "ingredients": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:essentia_crystal"
+  ],
+  "research": {
+    "entry": "thaumaturgicconcilium:destabilized_crystal"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:destabilized_crystal"
+  },
+  "vis": 50
+}

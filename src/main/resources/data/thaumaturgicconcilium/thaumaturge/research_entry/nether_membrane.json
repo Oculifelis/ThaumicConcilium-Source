@@ -1,0 +1,53 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.nether_membrane.title",
+  "parents": [
+    "thaumaturgicconcilium:thaumaturges"
+  ],
+  "column": 3,
+  "row": -2,
+  "icons": [
+    "thaumaturgicconcilium:nether_membrane"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.nether_membrane.stage_0",
+      "obtain": [
+        {
+          "items": [
+            "thaumaturgicconcilium:nether_membrane"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicconcilium.nether_membrane.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:crafting/nether_membrane"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 1
+    },
+    {
+      "aspect": "forsakenmagic:infernus",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

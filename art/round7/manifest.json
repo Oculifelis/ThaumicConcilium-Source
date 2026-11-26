@@ -1,0 +1,910 @@
+[
+  {
+    "id": "hex_of_predictability",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 1 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [0, 5, 10, 15] (0 plain), grain as is.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability"
+        }
+      },
+      "assets/thaumaturgicconcilium/blockstates/hex_of_predictability.json": {
+        "variants": {
+          "master=false": [
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_2"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_3"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_4"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_5"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_6"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_7"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_8"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_9"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_10"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_11"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_12"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_13"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_14"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_15"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_16"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_17"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_18"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_19"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_20"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_21"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_22"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_23"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_24"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_25"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_26"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_27"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_28"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_29"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_30"
+            }
+          ],
+          "master=true": [
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_2"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_3"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_4"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_5"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_6"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_7"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_8"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_9"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_10"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_11"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_12"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_13"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_14"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_15"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_16"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_17"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_18"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_19"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_20"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_21"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_22"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_23"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_24"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_25"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_26"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_27"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_28"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_29"
+            },
+            {
+              "model": "thaumaturgicconcilium:block/hex_of_predictability_30"
+            }
+          ]
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_2",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_2.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 2 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [1, 6, 11, 12] (0 plain), grain turned 90.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_2.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_2"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_3",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_3.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 3 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [2, None, None, 13] (2 plain), grain mirrored.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_3.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_3"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_4",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_4.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 4 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [3, None, 8, 14] (1 plain), grain turned 180.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_4.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_4"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_5",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_5.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 5 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [14, 13, 4, 8] (0 plain), grain flipped.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_5.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_5"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_6",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_6.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 6 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [1, 0, 7, 11] (0 plain), grain transposed.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_6.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_6"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_7",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_7.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 7 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [None, 10, 9, 12] (1 plain), grain turned 90.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_7.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_7"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_8",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_8.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 8 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [5, 3, 8, 11] (0 plain), grain turned 90.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_8.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_8"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_9",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_9.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 9 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [10, 11, 15, None] (1 plain), grain mirrored.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_9.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_9"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_10",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_10.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 10 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [None, 9, 3, 12] (1 plain), grain turned 90.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_10.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_10"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_11",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_11.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 11 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [9, None, 3, 12] (1 plain), grain turned 90.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_11.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_11"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_12",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_12.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 12 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [10, 3, 6, 2] (0 plain), grain as is.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_12.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_12"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_13",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_13.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 13 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [9, 2, 8, None] (1 plain), grain transversed.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_13.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_13"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_14",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_14.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 14 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [4, None, None, 14] (2 plain), grain transversed.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_14.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_14"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_15",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_15.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 15 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [1, 9, 13, None] (1 plain), grain flipped.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_15.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_15"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_16",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_16.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 16 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [None, 9, None, 1] (2 plain), grain transversed.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_16.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_16"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_17",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_17.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 17 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [None, 13, 11, None] (2 plain), grain turned 180.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_17.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_17"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_18",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_18.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 18 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [None, None, 12, 9] (2 plain), grain mirrored.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_18.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_18"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_19",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_19.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 19 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [None, 13, 10, 4] (1 plain), grain flipped.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_19.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_19"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_20",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_20.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 20 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [0, 6, None, 1] (1 plain), grain transversed.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_20.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_20"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_21",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_21.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 21 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [4, 7, 0, 8] (0 plain), grain turned 270.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_21.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_21"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_22",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_22.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 22 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [14, 1, 15, None] (1 plain), grain as is.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_22.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_22"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_23",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_23.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 23 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [11, None, None, 0] (2 plain), grain transversed.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_23.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_23"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_24",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_24.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 24 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [13, 1, 4, 9] (0 plain), grain turned 90.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_24.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_24"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_25",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_25.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 25 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [11, 2, 15, None] (1 plain), grain transversed.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_25.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_25"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_26",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_26.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 26 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [10, None, 9, 3] (1 plain), grain turned 90.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_26.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_26"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_27",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_27.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 27 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [10, 7, None, 9] (1 plain), grain flipped.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_27.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_27"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_28",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_28.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 28 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [None, 5, 7, None] (2 plain), grain mirrored.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_28.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_28"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_29",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_29.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 29 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [None, 3, 0, None] (2 plain), grain turned 90.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_29.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_29"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability_30",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability_30.png",
+    "kin": "thaumaturge:block/ancient_stone_0 (frame removed) + TC4 hex_runes",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Round 6 hex variant 30 unchanged except the outer edge: the stone's dark frame is gone, so the block edge gets the same 1px groove as the cross between the tiles. Runes [6, 11, None, 1] (1 plain), grain flipped.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability_30.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability_30"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_infernal",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_infernal.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + thaumaturge:block/metal_brass (band) + minecraft:block/redstone_block (gem)",
+    "original": null,
+    "group": "Bracelets option A",
+    "summary": "Round 4's metal_brass bangle unchanged; the gem is now a bright fire red stone (from minecraft:block/redstone_block) with a white glint, in a dark setting of the band's metal.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_infernal.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_infernal"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_tainted",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_tainted.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + thaumaturge:block/metal_void (band) + minecraft:item/amethyst_shard (gem)",
+    "original": null,
+    "group": "Bracelets option A",
+    "summary": "Round 4's metal_void bangle unchanged; the gem is now a bright taint magenta stone (from minecraft:item/amethyst_shard) with a white glint, in a dark setting of the band's metal.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_tainted.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_tainted"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_warpwood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_warpwood.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + thaumaturge:block/metal_thaumium (band) + minecraft:item/diamond (gem)",
+    "original": null,
+    "group": "Bracelets option A",
+    "summary": "Round 4's metal_thaumium bangle unchanged; the gem is now a bright aqua stone (from minecraft:item/diamond) with a white glint, in a dark setting of the band's metal.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_warpwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_warpwood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_blood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_blood.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + minecraft:block/gold_block (band) + minecraft:item/redstone (gem)",
+    "original": null,
+    "group": "Bracelets option A",
+    "summary": "Round 4's gold_block bangle unchanged; the gem is now a bright ruby red stone (from minecraft:item/redstone) with a white glint, in a dark setting of the band's metal.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_blood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_blood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_witchwood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_witchwood.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + minecraft:block/iron_block (band) + minecraft:item/amethyst_shard (gem)",
+    "original": null,
+    "group": "Bracelets option A",
+    "summary": "Round 4's iron_block bangle unchanged; the gem is now a bright violet stone (from minecraft:item/amethyst_shard) with a white glint, in a dark setting of the band's metal.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_witchwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_witchwood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_infernal_b",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_infernal.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + thaumaturge:block/metal_brass (band) + minecraft:block/redstone_block (gem)",
+    "original": null,
+    "group": "Bracelets option B",
+    "summary": "Round 3's bracelet with round 4's metal_brass band instead of wood; the same bright fire red gem with a white glint, in a dark brass setting (round 3's brass rim).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_infernal.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_infernal"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_tainted_b",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_tainted.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + thaumaturge:block/metal_void (band) + minecraft:item/amethyst_shard (gem)",
+    "original": null,
+    "group": "Bracelets option B",
+    "summary": "Round 3's bracelet with round 4's metal_void band instead of wood; the same bright taint magenta gem with a white glint, in a dark brass setting (round 3's brass rim).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_tainted.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_tainted"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_warpwood_b",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_warpwood.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + thaumaturge:block/metal_thaumium (band) + minecraft:item/diamond (gem)",
+    "original": null,
+    "group": "Bracelets option B",
+    "summary": "Round 3's bracelet with round 4's metal_thaumium band instead of wood; the same bright aqua gem with a white glint, in a dark brass setting (round 3's brass rim).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_warpwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_warpwood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_blood_b",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_blood.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + minecraft:block/gold_block (band) + minecraft:item/redstone (gem)",
+    "original": null,
+    "group": "Bracelets option B",
+    "summary": "Round 3's bracelet with round 4's gold_block band instead of wood; the same bright ruby red gem with a white glint, in a dark brass setting (round 3's brass rim).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_blood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_blood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_witchwood_b",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_witchwood.png",
+    "kin": "thaumaturge:item/curiosity_band (shape) + minecraft:block/iron_block (band) + minecraft:item/amethyst_shard (gem)",
+    "original": null,
+    "group": "Bracelets option B",
+    "summary": "Round 3's bracelet with round 4's iron_block band instead of wood; the same bright violet gem with a white glint, in a dark brass setting (round 3's brass rim).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_witchwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_witchwood"
+        }
+      }
+    },
+    "animated": false
+  }
+]

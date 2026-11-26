@@ -1,0 +1,15 @@
+{
+  "aspect": "thaumaturge:cognitio",
+  "behavior": {
+    "type": "thaumaturgicconcilium:reflection",
+    "whisper": "thaumaturgicconcilium:whispers",
+    "oblivion": true
+  },
+  "color": 2818112,
+  "complexity": 7,
+  "icon": "thaumaturgicconcilium:textures/foci/oblivion.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:reflection_focus"
+  },
+  "vis": 0.0
+}

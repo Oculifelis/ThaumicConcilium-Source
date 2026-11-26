@@ -1,0 +1,75 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 8
+    }
+  ],
+  "catalyst": "minecraft:note_block",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "minecraft:leather",
+    "minecraft:leather",
+    "thaumaturge:fabric",
+    "thaumaturge:fabric",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:victus"
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:auram"
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:praecantatio"
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:alienis"
+        }
+      }
+    },
+    "thaumaturge:ingot_thaumium",
+    "minecraft:string",
+    "minecraft:string"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumaturgicconcilium:thaumaturge_drum"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:thaumaturge_drum"
+  }
+}

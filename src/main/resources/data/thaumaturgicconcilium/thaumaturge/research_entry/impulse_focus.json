@@ -1,0 +1,54 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.impulse_focus.title",
+  "parents": [
+    "thaumaturgicconcilium:signal_focus"
+  ],
+  "column": 2,
+  "row": 6,
+  "icons": [
+    "thaumaturge:focus_1"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.impulse_focus.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicconcilium.impulse_focus.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:infusion/focus_impulse_focus"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 8
+    },
+    {
+      "aspect": "forsakenmagic:ira",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 8
+    }
+  ],
+  "complexity": 2
+}

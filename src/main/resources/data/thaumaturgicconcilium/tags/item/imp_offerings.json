@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:gold_ingot",
+    "minecraft:diamond",
+    "minecraft:emerald",
+    "minecraft:blaze_rod",
+    "minecraft:ghast_tear",
+    {
+      "id": "witchery:demons_blood",
+      "required": false
+    }
+  ]
+}

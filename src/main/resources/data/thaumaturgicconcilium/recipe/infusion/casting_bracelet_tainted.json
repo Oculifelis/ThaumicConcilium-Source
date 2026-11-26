@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgicbases"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    }
+  ],
+  "catalyst": "forsakenmagic:wand_rod_tainted",
+  "components": [
+    "thaumaturge:wand_cap_thaumium",
+    "thaumaturge:salis_mundus",
+    "forsakenmagic:taint_shard",
+    "thaumaturge:wand_cap_thaumium",
+    "thaumaturge:salis_mundus",
+    "forsakenmagic:taint_shard"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicconcilium:tainted_bracelet"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:casting_bracelet_tainted"
+  }
+}

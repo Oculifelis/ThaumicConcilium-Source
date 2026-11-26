@@ -1,0 +1,57 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="thaumaturgicconcilium_logo.png"
+logoBlur=false
+authors="Oculifelis"
+credits="Original Thaumic Concilium by Ilya3000 (Ilya3point999K) and BreadX22, for Thaumcraft 4 (1.7.10), released as CC0. Thaumaturge by Leclowndu93150 and contributors. Ported to Thaumaturge by Oculifelis."
+description='''
+Thaumaturgic Concilium: Thaumic Concilium, ported to Thaumaturge for NeoForge 26.1.2.
+Thirteen new spell effects from the thaumaturges' foci, Destabilized Crystals and polishment, Shard Mills that grind vis crystals and sin shards into living powder, warp-bound trinkets, runic windings, the Dump Jackboots and the Thaumaturge Drum.
+'''
+
+# Dev test clients only: opens the window without focus when -Dthaumaturgicconcilium.autotest is set.
+[[mixins]]
+config="thaumaturgicconcilium.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="curios"
+    type="required"
+    versionRange="[15,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumaturge"
+    type="required"
+    versionRange="${thaumaturge_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumaturgictinkerer"
+    type="required"
+    versionRange="[0.9.3,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="forsakenmagic"
+    type="required"
+    versionRange="[0.7.2,)"
+    ordering="AFTER"
+    side="BOTH"

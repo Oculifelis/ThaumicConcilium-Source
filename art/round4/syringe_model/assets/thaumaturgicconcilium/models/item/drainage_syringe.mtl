@@ -1,0 +1,5 @@
+# drainage syringe material: its texture comes from the model JSON's #syringe slot
+newmtl Material.020
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd #syringe

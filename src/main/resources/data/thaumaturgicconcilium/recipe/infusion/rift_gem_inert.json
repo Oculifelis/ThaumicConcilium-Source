@@ -1,0 +1,91 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gadomancyawakened"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 8
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "gadomancyawakened:aura_core",
+    "components": {
+      "gadomancyawakened:core_aspect": "thaumaturge:perditio"
+    }
+  },
+  "components": [
+    "thaumaturge:primal_charm",
+    "gadomancyawakened:void_element",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "thaumaturge:quicksilver",
+    "thaumaturge:warded_glass",
+    "thaumaturge:quicksilver",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "thaumaturge:void_seed",
+    "thaumaturge:primal_charm",
+    "gadomancyawakened:void_element",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      }
+    },
+    "thaumaturge:alumentum",
+    "thaumaturge:warded_glass",
+    "thaumaturge:alumentum",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      }
+    },
+    "thaumaturge:void_seed"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumaturgicconcilium:rift_gem"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:rift_gem_inert"
+  }
+}

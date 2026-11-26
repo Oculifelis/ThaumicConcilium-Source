@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:victus",
+  "behavior": {
+    "type": "thaumaturgicconcilium:positive_burst"
+  },
+  "color": 10854849,
+  "complexity": 4,
+  "icon": "thaumaturgicconcilium:textures/foci/positive_burst.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:positive_burst_focus"
+  },
+  "vis": 13.0,
+  "cooldown_multiplier": 2.0
+}

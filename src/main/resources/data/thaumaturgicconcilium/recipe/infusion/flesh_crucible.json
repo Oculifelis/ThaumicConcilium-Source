@@ -1,0 +1,53 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "taintedmagic"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgictinkerer"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 32
+    },
+    {
+      "aspect": "forsakenmagic:gula",
+      "amount": 16
+    },
+    {
+      "aspect": "forsakenmagic:infernus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 16
+    }
+  ],
+  "catalyst": "thaumaturgicconcilium:quicksilver_crucible",
+  "components": [
+    "thaumaturgictinkerer:ichor",
+    "taintedmagic:crystal_blood",
+    "taintedmagic:crystal_blood",
+    "taintedmagic:crystal_blood",
+    "thaumaturgictinkerer:bright_nitor",
+    "taintedmagic:voidsent_blood",
+    "taintedmagic:voidsent_blood",
+    "taintedmagic:voidsent_blood"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumaturgicconcilium:flesh_crucible"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:flesh_crucible"
+  }
+}

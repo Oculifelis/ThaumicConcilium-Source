@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gadomancyawakened"
+    }
+  ],
+  "aspect": "forsakenmagic:superbia",
+  "action": "repel",
+  "interval": 8,
+  "range": 32
+}

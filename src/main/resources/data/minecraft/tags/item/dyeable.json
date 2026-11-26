@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thaumaturgicconcilium:pontifex_robe_head",
+    "thaumaturgicconcilium:pontifex_robe_chest",
+    "thaumaturgicconcilium:pontifex_robe_legs",
+    "thaumaturgicconcilium:pontifex_robe_feet"
+  ]
+}

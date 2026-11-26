@@ -1,0 +1,52 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.astral_monitor.title",
+  "parents": [
+    "thaumaturgicconcilium:hex_of_predictability"
+  ],
+  "column": 10,
+  "row": 4,
+  "icons": [
+    "thaumaturgicconcilium:astral_monitor"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.astral_monitor.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicconcilium.astral_monitor.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 8
+    }
+  ],
+  "complexity": 3
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "thaumaturgicconcilium:runic_windings"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "thaumaturgicconcilium:runic_windings"
+      }
+    ]
+  }
+}

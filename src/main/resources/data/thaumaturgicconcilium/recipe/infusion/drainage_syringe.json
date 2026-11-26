@@ -1,0 +1,50 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumichorizons"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 32
+    },
+    {
+      "aspect": "forsakenmagic:gula",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumichorizons:injector",
+  "components": [
+    "thaumaturge:essentia_reservoir",
+    "thaumaturge:tube_buffer",
+    "thaumichorizons:syringe_human",
+    "thaumaturge:primal_charm",
+    "minecraft:lever",
+    "thaumaturge:ingot_void"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumaturgicconcilium:drainage_syringe"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:drainage_syringe",
+    "components": {
+      "thaumaturge:warp": 3
+    }
+  }
+}

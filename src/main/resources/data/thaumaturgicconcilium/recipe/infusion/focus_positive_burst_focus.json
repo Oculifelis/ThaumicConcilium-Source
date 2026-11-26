@@ -1,0 +1,68 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 256
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 64
+    },
+    {
+      "aspect": "forsakenmagic:desidia",
+      "amount": 32
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "thaumaturge:focus_element",
+    "parts": [
+      "thaumictinkerer:heal"
+    ]
+  },
+  "components": [
+    "thaumaturge:tube",
+    "minecraft:enchanted_golden_apple",
+    "thaumaturge:primal_charm",
+    "thaumaturge:primal_charm",
+    "thaumaturge:primal_charm",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:experience_bottle",
+    "minecraft:enchanted_golden_apple",
+    "thaumaturge:primal_charm",
+    "thaumaturge:primal_charm",
+    "thaumaturge:primal_charm",
+    "minecraft:enchanted_golden_apple"
+  ],
+  "instability": 15,
+  "research": {
+    "entry": "thaumaturgicconcilium:positive_burst_focus"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "instant",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicconcilium:positive_burst"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "item.thaumaturgicconcilium.focus_positive_burst_focus"
+      }
+    }
+  }
+}

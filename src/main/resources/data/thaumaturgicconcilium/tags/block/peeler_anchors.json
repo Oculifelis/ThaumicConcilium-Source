@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "thaumaturgicconcilium:hex_of_predictability",
+      "required": false
+    },
+    {
+      "id": "thaumaturgicconcilium:hex_of_predictability_thick",
+      "required": false
+    }
+  ]
+}

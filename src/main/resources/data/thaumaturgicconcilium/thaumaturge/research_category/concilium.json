@@ -1,0 +1,33 @@
+{
+  "background": "thaumaturgicconcilium:textures/gui/research_back.png",
+  "formula": [
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 10
+    }
+  ],
+  "icon": "thaumaturgicconcilium:textures/misc/category_icon.png",
+  "index": 10,
+  "overlay_background": "thaumaturge:textures/gui/gui_research_back_over.png",
+  "required_research": "thaumaturge:first_steps"
+}

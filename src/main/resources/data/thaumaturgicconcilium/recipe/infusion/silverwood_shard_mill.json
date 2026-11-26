@@ -1,0 +1,51 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:log_silverwood",
+  "components": [
+    "thaumaturge:wand_rod_silverwood",
+    "thaumaturge:filter",
+    "thaumaturge:filter",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:wand_cap_thaumium"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicconcilium:silverwood_shard_mill"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:silverwood_shard_mill"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": {
+    "forsakenmagic:wrath_shard": {
+      "aspect": "forsakenmagic:ira"
+    },
+    "forsakenmagic:envy_shard": {
+      "aspect": "forsakenmagic:invidia"
+    },
+    "forsakenmagic:pride_shard": {
+      "aspect": "forsakenmagic:superbia"
+    },
+    "forsakenmagic:sloth_shard": {
+      "aspect": "forsakenmagic:desidia"
+    },
+    "forsakenmagic:lust_shard": {
+      "aspect": "forsakenmagic:luxuria"
+    },
+    "forsakenmagic:gluttony_shard": {
+      "aspect": "forsakenmagic:gula"
+    },
+    "forsakenmagic:greed_shard": {
+      "aspect": "thaumaturge:desiderium"
+    },
+    "forsakenmagic:taint_shard": {
+      "aspect": "thaumaturge:vitium"
+    }
+  }
+}

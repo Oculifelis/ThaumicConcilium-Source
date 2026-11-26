@@ -1,0 +1,15 @@
+{
+  "aspect": "thaumaturge:permutatio",
+  "behavior": {
+    "type": "thaumaturgicconcilium:vis_conductor",
+    "sound": "thaumaturge:jacobs",
+    "dematerialization": true
+  },
+  "color": 8947967,
+  "complexity": 7,
+  "icon": "thaumaturgicconcilium:textures/foci/dematerialization.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:dematerialization"
+  },
+  "vis": 0.6
+}

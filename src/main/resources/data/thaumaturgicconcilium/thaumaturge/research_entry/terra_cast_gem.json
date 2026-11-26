@@ -1,0 +1,55 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.terra_cast_gem.title",
+  "parents": [
+    "thaumaturgicconcilium:rift_gem"
+  ],
+  "column": 12,
+  "row": -1,
+  "icons": [
+    "thaumaturgicconcilium:terra_cast_gem"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.terra_cast_gem.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicconcilium.terra_cast_gem.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:infusion/terra_cast_gem_inert",
+        "thaumaturgicconcilium:crafting/terra_gem"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    }
+  ],
+  "complexity": 2
+}

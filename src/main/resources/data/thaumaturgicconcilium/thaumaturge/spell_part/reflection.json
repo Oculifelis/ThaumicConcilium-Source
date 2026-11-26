@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:cognitio",
+  "behavior": {
+    "type": "thaumaturgicconcilium:reflection",
+    "whisper": "thaumaturgicconcilium:whispers"
+  },
+  "color": 1118481,
+  "complexity": 5,
+  "icon": "thaumaturgicconcilium:textures/foci/reflection.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:reflection_focus"
+  },
+  "vis": 0.0
+}

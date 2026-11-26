@@ -1,0 +1,59 @@
+{
+  "category": "thaumaturgicconcilium:concilium",
+  "name": "research.thaumaturgicconcilium.scribing_focus.title",
+  "parents": [
+    "thaumaturgicconcilium:runic_windings",
+    "thaumaturgicconcilium:destabilized_crystal"
+  ],
+  "column": 5,
+  "row": -2,
+  "icons": [
+    "thaumaturge:focus_1"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicconcilium.scribing_focus.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicconcilium.scribing_focus.stage_1",
+      "recipes": [
+        "thaumaturgicconcilium:infusion/focus_scribing_focus"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 5
+    }
+  ],
+  "complexity": 3
+}

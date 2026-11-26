@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:lux",
+  "behavior": {
+    "type": "thaumaturgicconcilium:spotlight",
+    "hum": "thaumaturgicconcilium:hum"
+  },
+  "color": 16776960,
+  "complexity": 6,
+  "icon": "thaumaturgicconcilium:textures/foci/spotlight.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:spotlight_focus"
+  },
+  "vis": 25.0
+}

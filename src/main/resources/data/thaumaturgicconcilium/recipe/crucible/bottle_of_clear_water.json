@@ -1,0 +1,16 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    }
+  ],
+  "catalyst": "minecraft:glass_bottle",
+  "research": {
+    "entry": "thaumaturgicconcilium:bottle_of_clear_water"
+  },
+  "result": {
+    "id": "thaumaturgicconcilium:bottle_of_clear_water"
+  }
+}

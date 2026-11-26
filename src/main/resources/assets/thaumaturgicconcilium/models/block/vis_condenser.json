@@ -1,0 +1,8 @@
+{
+  "parent": "thaumaturge:block/pedestal_arcane",
+  "textures": {
+    "side": "thaumaturgicconcilium:block/vis_condenser_side",
+    "top": "thaumaturgicconcilium:block/vis_condenser_top",
+    "particle": "thaumaturgicconcilium:block/vis_condenser_side"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": {
+    "thaumaturge:brainy_zombie": {
+      "entity": "thaumaturgicconcilium:mad_thaumaturge",
+      "chance": 0.2
+    },
+    "thaumaturge:cultist_knight": {
+      "entity": "thaumaturgicconcilium:crimson_paladin",
+      "chance": 0.2
+    }
+  }
+}

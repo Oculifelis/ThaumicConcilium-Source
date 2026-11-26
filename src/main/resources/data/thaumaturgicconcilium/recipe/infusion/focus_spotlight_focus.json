@@ -1,0 +1,97 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 512
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 512
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 128
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 96
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "thaumaturge:focus_element",
+    "parts": [
+      "thaumictinkerer:shadowbeam"
+    ]
+  },
+  "components": [
+    "thaumaturge:primordial_pearl",
+    "thaumaturgictinkerer:ichor",
+    "thaumaturgictinkerer:bright_nitor",
+    "thaumaturgictinkerer:bright_nitor",
+    "thaumaturgictinkerer:bright_nitor",
+    "thaumaturgictinkerer:bright_nitor",
+    "thaumaturgictinkerer:bright_nitor",
+    "thaumaturgictinkerer:ichor",
+    "thaumaturgicconcilium:primordial_life",
+    "thaumaturgictinkerer:ichor",
+    {
+      "neoforge:ingredient_type": "thaumaturge:focus_element",
+      "parts": [
+        "thaumaturge:fire"
+      ]
+    },
+    {
+      "neoforge:ingredient_type": "thaumaturge:focus_element",
+      "parts": [
+        "thaumaturge:fire"
+      ]
+    },
+    {
+      "neoforge:ingredient_type": "thaumaturge:focus_element",
+      "parts": [
+        "thaumaturge:fire"
+      ]
+    },
+    {
+      "neoforge:ingredient_type": "thaumaturge:focus_element",
+      "parts": [
+        "thaumaturge:fire"
+      ]
+    },
+    {
+      "neoforge:ingredient_type": "thaumaturge:focus_element",
+      "parts": [
+        "thaumaturge:fire"
+      ]
+    },
+    "thaumaturgictinkerer:ichor"
+  ],
+  "instability": 20,
+  "research": {
+    "entry": "thaumaturgicconcilium:spotlight_focus"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "channeled",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicconcilium:spotlight"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "item.thaumaturgicconcilium.focus_spotlight_focus"
+      }
+    }
+  }
+}

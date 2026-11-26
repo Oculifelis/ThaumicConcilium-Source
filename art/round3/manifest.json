@@ -1,0 +1,955 @@
+[
+  {
+    "id": "thaumaturge_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/thaumaturge_spawn_egg.png",
+    "kin": "minecraft:item/witch_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "The witch egg's hatted head recoloured to the Thaumaturge's own brown hat, skin, violet robe and gold trim.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/thaumaturge_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/thaumaturge_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "mad_thaumaturge_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/mad_thaumaturge_spawn_egg.png",
+    "kin": "minecraft:item/witch_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "The witch egg again, in the Mad Thaumaturge's ragged browns, torn grey robe and blood-red stains.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/mad_thaumaturge_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/mad_thaumaturge_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "dissolved_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/dissolved_spawn_egg.png",
+    "kin": "minecraft:item/enderman_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "The enderman egg (the Dissolved use the ender body) sunk into void metal, its magenta flecks gone to flux pink.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/dissolved_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/dissolved_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "quicksilver_elemental_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/quicksilver_elemental_spawn_egg.png",
+    "kin": "minecraft:item/zombie_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "The zombie egg's humanoid head poured in the Quicksilver Elemental's own mercury greys, brightest at the head.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/quicksilver_elemental_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/quicksilver_elemental_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "vengeful_golem_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/vengeful_golem_spawn_egg.png",
+    "kin": "minecraft:item/iron_golem_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "The iron golem egg in the Vengeful Golem's violet, its grey face kept grey and the vines turned to gold trim.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/vengeful_golem_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/vengeful_golem_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "overanimated_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/overanimated_spawn_egg.png",
+    "kin": "minecraft:item/zombie_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "The zombie egg (a body that will not lie down) in the Overanimated's skin, violet robe and brown leather.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/overanimated_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/overanimated_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "golem_bydlo_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/golem_bydlo_spawn_egg.png",
+    "kin": "minecraft:item/iron_golem_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: thaumaturges and golems",
+    "summary": "The iron golem egg cast in thaumium (the metal block's own violets), its vines left growing.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/golem_bydlo_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/golem_bydlo_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "taint_spider_smart_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/taint_spider_smart_spawn_egg.png",
+    "kin": "minecraft:item/spider_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "The spider egg in the taint crawler's purples, its eyes the crawler's glowing flux pink.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/taint_spider_smart_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/taint_spider_smart_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "nether_explorer_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/nether_explorer_spawn_egg.png",
+    "kin": "minecraft:item/zombified_piglin_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "The zombified piglin egg in the Nether Explorer's pale bone greys over its own dark grey kit.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/nether_explorer_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/nether_explorer_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "thaum_gib_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/thaum_gib_spawn_egg.png",
+    "kin": "minecraft:item/husk_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "The husk egg's dried flesh in the Thaumaturge's skin and hat browns: an Alive Limb torn from an Overanimated.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/thaum_gib_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/thaum_gib_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "paranoid_warrior_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/paranoid_warrior_spawn_egg.png",
+    "kin": "minecraft:item/wither_skeleton_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "The wither skeleton egg's dark bones in the Paranoid Warrior's black coat shading up into its violet robe.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/paranoid_warrior_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/paranoid_warrior_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/paranoid_warrior_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/paranoid_warrior_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "crimson_paladin_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/crimson_paladin_spawn_egg.png",
+    "kin": "minecraft:item/evoker_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "The evoker egg (a robed caster) in the Crimson Paladin's grey helm, violet robe and gold trim.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/crimson_paladin_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/crimson_paladin_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/crimson_paladin_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/crimson_paladin_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "crimson_archer_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/crimson_archer_spawn_egg.png",
+    "kin": "minecraft:item/pillager_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "The pillager egg (the crossbow raider) in the Crimson Archer's skin and dark crimson hood and leathers.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/crimson_archer_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/crimson_archer_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/crimson_archer_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/crimson_archer_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "crimson_ranger_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/crimson_ranger_spawn_egg.png",
+    "kin": "minecraft:item/vindicator_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "The vindicator egg in the crimson cultist's robe reds and leather browns (the Ranger wears the cultist look).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/crimson_ranger_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/crimson_ranger_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/crimson_ranger_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/crimson_ranger_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "crimson_pontifex_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/crimson_pontifex_spawn_egg.png",
+    "kin": "thaumaturge:item/cultist_leader_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "Thaumaturge's cultist leader egg with its robe turned to the Pontifex's white vestment and the sigil in cult red.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/crimson_pontifex_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/crimson_pontifex_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/crimson_pontifex_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/crimson_pontifex_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "brightest_one_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/brightest_one_spawn_egg.png",
+    "kin": "thaumaturge:item/wisp_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "Thaumaturge's wisp egg burning in glowstone's golds: the Brightest One is a ball of living light.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/brightest_one_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/brightest_one_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/brightest_one_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/brightest_one_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "lesser_crimson_portal_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/lesser_crimson_portal_spawn_egg.png",
+    "kin": "thaumaturge:item/cultist_portal_lesser_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: crimson order",
+    "summary": "Thaumaturge's lesser cultist portal egg with its blue void turned to a deep crimson rift.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/lesser_crimson_portal_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/lesser_crimson_portal_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/lesser_crimson_portal_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/lesser_crimson_portal_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "protolimb_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/protolimb_spawn_egg.png",
+    "kin": "minecraft:item/endermite_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: creatures and bosses",
+    "summary": "The endermite egg made of End sky (the end_sky texture's own violets), its bright flecks turned to stars.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/protolimb_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/protolimb_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "chort_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/chort_spawn_egg.png",
+    "kin": "minecraft:item/piglin_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "The piglin egg (a snouted demon's head) in the Chort's own blue-black hide with its crimson flank.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/chort_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/chort_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/chort_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/chort_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "sloppy_alchemist_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/sloppy_alchemist_spawn_egg.png",
+    "kin": "minecraft:item/zombie_villager_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "The zombie villager egg with the Sloppy Alchemist's pale blonde face over its dark maroon coat.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/sloppy_alchemist_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/sloppy_alchemist_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/sloppy_alchemist_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/sloppy_alchemist_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "burned_witch_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/burned_witch_spawn_egg.png",
+    "kin": "minecraft:item/witch_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "The witch egg charred: the Burned Witch's soot-black hat and robe with her singed orange hair.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/burned_witch_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/burned_witch_spawn_egg"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/burned_witch_spawn_egg.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/burned_witch_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "red_powered_mind_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/red_powered_mind_spawn_egg.png",
+    "kin": "minecraft:item/strider_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "The strider egg's wrinkled lump in the Red Powered Mind's raw brain reds with its green veining underneath.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/red_powered_mind_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/red_powered_mind_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "dope_squid_spawn_egg",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/dope_squid_spawn_egg.png",
+    "kin": "minecraft:item/glow_squid_spawn_egg",
+    "original": null,
+    "group": "Spawn eggs: compat mobs",
+    "summary": "The glow squid egg in the Dope Squid's orange-brown, its glow spots kept as the squid's pale freckles.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/dope_squid_spawn_egg.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/dope_squid_spawn_egg"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "astral_monitor",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/astral_monitor.png",
+    "kin": "thaumaturge:item/scanner",
+    "original": "_reference/ThaumicConcilium/.../textures/models/atsral_frame.png",
+    "group": "Rift devices",
+    "summary": "A handheld hex monitor showing the End's stars, its frame box-filtered down from Thaumaturge's scanner and cast in void metal like the TC4 frame.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/astral_monitor.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/astral_monitor"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "rift_gem",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/rift_gem.png",
+    "kin": "minecraft:item/echo_shard",
+    "original": "_reference/ThaumicConcilium/.../textures/models/gem_base.png",
+    "group": "Gems",
+    "summary": "A shard of an open rift: the echo shard gradient-mapped into void metal, its bright facets flux pink.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/rift_gem.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/rift_gem"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "rift_gem_inert",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/rift_gem_inert.png",
+    "kin": "minecraft:item/echo_shard",
+    "original": "_reference/ThaumicConcilium/.../textures/models/gem_base.png",
+    "group": "Gems",
+    "summary": "The same echo-shard rift gem gone dead, void metal drained to grey with no glow.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/rift_gem_inert.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/rift_gem_inert"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "terra_cast_gem",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/terra_cast_gem.png",
+    "kin": "minecraft:item/emerald",
+    "original": "_reference/ThaumicConcilium/.../textures/models/gem_top.png",
+    "group": "Gems",
+    "summary": "A gem cast from living earth: the emerald mapped from dark oak browns up into moss greens.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/terra_cast_gem.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/terra_cast_gem"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "terra_cast_gem_inert",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/terra_cast_gem_inert.png",
+    "kin": "minecraft:item/emerald",
+    "original": "_reference/ThaumicConcilium/.../textures/models/gem_top.png",
+    "group": "Gems",
+    "summary": "The same emerald-cut terra gem in dead coarse-dirt browns.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/terra_cast_gem_inert.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/terra_cast_gem_inert"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "pontifex_hammer",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/pontifex_hammer.png",
+    "kin": "minecraft:item/mace",
+    "original": "_reference/ThaumicConcilium/.../textures/models/Molot.png",
+    "group": "Pontifex gear",
+    "summary": "The Pontifex's hammer as a 2D sprite: the vanilla mace with a gold-block head, a redstone jewel and a dark oak haft.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/pontifex_hammer.json": {
+        "parent": "minecraft:item/handheld",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/pontifex_hammer"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/pontifex_hammer.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/pontifex_hammer"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "protobody",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/protobody.png",
+    "kin": "minecraft:item/armor_stand",
+    "original": null,
+    "group": "Flesh and void",
+    "summary": "A small figure of End-sky matter: the armour stand item mapped onto the end_sky texture's violets, with stars.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/protobody.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/protobody"
+        }
+      },
+      "assets/thaumaturgicconcilium/items/protobody.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:item/protobody"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "drainage_syringe",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/drainage_syringe.png",
+    "kin": "thaumaturge:item/phial",
+    "original": "_reference/ThaumicConcilium/.../textures/items/syringe.png",
+    "group": "Syringe and seals",
+    "summary": "An empty syringe built from the phial's own glass tones and iron, lit from the top left.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/drainage_syringe.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/drainage_syringe"
+        }
+      },
+      "assets/thaumaturgicconcilium/models/item/drainage_syringe_filled.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/drainage_syringe",
+          "layer1": "thaumaturgicconcilium:item/drainage_syringe_overlay"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "drainage_syringe_overlay",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/drainage_syringe_overlay.png",
+    "kin": "thaumaturge:item/phial_overlay",
+    "original": null,
+    "group": "Syringe and seals",
+    "summary": "The syringe's fill layer, greyscale so the item model's 0x9700C0 tint turns it purple (layer1 of the filled model).",
+    "model_change": null,
+    "animated": false
+  },
+  {
+    "id": "valet_seal",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/valet_seal.png",
+    "kin": "thaumaturge:item/seal_blank",
+    "original": "_reference/ThaumicConcilium/.../textures/items/valet_core.png",
+    "group": "Syringe and seals",
+    "summary": "Thaumaturge's blank seal with the TC4 valet core's emblem pressed into the wax in Thaumaturge's own pulsing seal gold (animated, 3 frames).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/valet_seal.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/valet_seal"
+        }
+      }
+    },
+    "animated": true
+  },
+  {
+    "id": "assistant_seal",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/assistant_seal.png",
+    "kin": "thaumaturge:item/seal_blank",
+    "original": "_reference/ThaumicConcilium/.../textures/items/assistance_core.png",
+    "group": "Syringe and seals",
+    "summary": "Thaumaturge's blank seal with the TC4 assistance core's emblem pressed into the wax in Thaumaturge's own pulsing seal gold (animated, 3 frames).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/assistant_seal.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/assistant_seal"
+        }
+      }
+    },
+    "animated": true
+  },
+  {
+    "id": "casting_bracelet_infernal",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_infernal.png",
+    "kin": "forsakenmagic:item/wand_rod_infernal",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "Thaumaturge's curiosity band remade in infernal wood (the wand_rod_infernal texture's tones), its gem the rod's glowing core in a brass setting.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_infernal.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_infernal"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_tainted",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_tainted.png",
+    "kin": "forsakenmagic:item/wand_rod_tainted",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "Thaumaturge's curiosity band remade in tainted wood (the wand_rod_tainted texture's tones), its gem the rod's glowing core in a brass setting.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_tainted.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_tainted"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_warpwood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_warpwood.png",
+    "kin": "taintedmagic:item/wand_rod_warpwood",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "Thaumaturge's curiosity band remade in warpwood wood (the wand_rod_warpwood texture's tones), its gem the rod's glowing core in a brass setting.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_warpwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_warpwood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_blood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_blood.png",
+    "kin": "forsakenmagic:item/wand_rod_blood",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "Thaumaturge's curiosity band remade in blood wood (the wand_rod_blood texture's tones), its gem the rod's glowing core in a brass setting.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_blood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_blood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "casting_bracelet_witchwood",
+    "kind": "item",
+    "target": "assets/thaumaturgicconcilium/textures/item/casting_bracelet_witchwood.png",
+    "kin": "forsakenmagic:item/wand_rod_witchwood",
+    "original": null,
+    "group": "Bracelets",
+    "summary": "Thaumaturge's curiosity band remade in witchwood wood (the wand_rod_witchwood texture's tones), its gem the rod's glowing core in a brass setting.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/item/casting_bracelet_witchwood.json": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "thaumaturgicconcilium:item/casting_bracelet_witchwood"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "hex_of_predictability",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/hex_of_predictability.png",
+    "kin": "thaumaturge:block/ancient_glyph",
+    "original": "_reference/ThaumicConcilium/.../textures/models/hex_runes.png",
+    "group": "Blocks",
+    "summary": "Rune-cut ancient stone: Thaumaturge's ancient glyph frame round ancient stone, cut with a TC4 Hex rune glowing faintly in the groove.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/hex_of_predictability.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/hex_of_predictability"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "vis_condenser_side",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/vis_condenser_side.png",
+    "kin": "thaumaturge:block/pedestal_side",
+    "original": "_reference/ThaumicConcilium/.../textures/models/vis_condenser.png",
+    "group": "Blocks",
+    "summary": "The arcane pedestal's side cast in brass, its column keeping all its shading.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/vis_condenser.json": {
+        "parent": "thaumaturge:block/pedestal_arcane",
+        "textures": {
+          "side": "thaumaturgicconcilium:block/vis_condenser_side",
+          "top": "thaumaturgicconcilium:block/vis_condenser_top",
+          "particle": "thaumaturgicconcilium:block/vis_condenser_side"
+        }
+      },
+      "assets/thaumaturgicconcilium/blockstates/vis_condenser.json": {
+        "variants": {
+          "": {
+            "model": "thaumaturgicconcilium:block/vis_condenser"
+          }
+        }
+      },
+      "assets/thaumaturgicconcilium/items/vis_condenser.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:block/vis_condenser"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "vis_condenser_top",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/vis_condenser_top.png",
+    "kin": "thaumaturge:block/pedestal_top",
+    "original": "_reference/ThaumicConcilium/.../textures/models/vis_condenser.png",
+    "group": "Blocks",
+    "summary": "The arcane pedestal's top in brass with a sunken window onto a violet vis crystal.",
+    "model_change": "see vis_condenser_side",
+    "animated": false
+  },
+  {
+    "id": "lithographer",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/lithographer.png",
+    "kin": "thaumaturge:block/advanced_alchemical_construct",
+    "original": "_reference/ThaumicConcilium/.../textures/models/lithographer.png",
+    "group": "Blocks",
+    "summary": "The advanced alchemical construct as a lithographer's press: brass grid kept, the glowing cells pale calcite litho stone, the corners dark oak.",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/lithographer.json": {
+        "parent": "minecraft:block/cube_all",
+        "textures": {
+          "all": "thaumaturgicconcilium:block/lithographer"
+        }
+      },
+      "assets/thaumaturgicconcilium/blockstates/lithographer.json": {
+        "variants": {
+          "axis=x": {
+            "model": "thaumaturgicconcilium:block/lithographer"
+          },
+          "axis=z": {
+            "model": "thaumaturgicconcilium:block/lithographer",
+            "y": 90
+          }
+        }
+      },
+      "assets/thaumaturgicconcilium/items/lithographer.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:block/lithographer"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "quicksilver_crucible_side",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/quicksilver_crucible_side.png",
+    "kin": "thaumaturge:block/crucible_side",
+    "original": "_reference/ThaumicConcilium/.../textures/blocks/quicksilver_crucible.png",
+    "group": "Blocks",
+    "summary": "Thaumaturge's crucible side in quicksilver: iron block tones washed with Thaumaturge's quicksilver, mapped by the crucible's own brightness (one shared range for all four faces).",
+    "model_change": {
+      "assets/thaumaturgicconcilium/models/block/quicksilver_crucible.json": {
+        "parent": "thaumaturge:block/crucible",
+        "textures": {
+          "top": "thaumaturgicconcilium:block/quicksilver_crucible_top",
+          "side": "thaumaturgicconcilium:block/quicksilver_crucible_side",
+          "inner": "thaumaturgicconcilium:block/quicksilver_crucible_inner",
+          "bottom": "thaumaturgicconcilium:block/quicksilver_crucible_bottom",
+          "particle": "thaumaturgicconcilium:block/quicksilver_crucible_side"
+        }
+      },
+      "assets/thaumaturgicconcilium/blockstates/quicksilver_crucible.json": {
+        "variants": {
+          "": {
+            "model": "thaumaturgicconcilium:block/quicksilver_crucible"
+          }
+        }
+      },
+      "assets/thaumaturgicconcilium/items/quicksilver_crucible.json": {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicconcilium:block/quicksilver_crucible"
+        }
+      }
+    },
+    "animated": false
+  },
+  {
+    "id": "quicksilver_crucible_top",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/quicksilver_crucible_top.png",
+    "kin": "thaumaturge:block/crucible_top",
+    "original": "_reference/ThaumicConcilium/.../textures/blocks/quicksilver_crucible.png",
+    "group": "Blocks",
+    "summary": "Thaumaturge's crucible top in quicksilver: iron block tones washed with Thaumaturge's quicksilver, mapped by the crucible's own brightness (one shared range for all four faces).",
+    "model_change": "see quicksilver_crucible_side",
+    "animated": false
+  },
+  {
+    "id": "quicksilver_crucible_inner",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/quicksilver_crucible_inner.png",
+    "kin": "thaumaturge:block/crucible_inner",
+    "original": "_reference/ThaumicConcilium/.../textures/blocks/quicksilver_crucible.png",
+    "group": "Blocks",
+    "summary": "Thaumaturge's crucible inner in quicksilver: iron block tones washed with Thaumaturge's quicksilver, mapped by the crucible's own brightness (one shared range for all four faces).",
+    "model_change": "see quicksilver_crucible_side",
+    "animated": false
+  },
+  {
+    "id": "quicksilver_crucible_bottom",
+    "kind": "block",
+    "target": "assets/thaumaturgicconcilium/textures/block/quicksilver_crucible_bottom.png",
+    "kin": "thaumaturge:block/crucible_bottom",
+    "original": "_reference/ThaumicConcilium/.../textures/blocks/quicksilver_crucible.png",
+    "group": "Blocks",
+    "summary": "Thaumaturge's crucible bottom in quicksilver: iron block tones washed with Thaumaturge's quicksilver, mapped by the crucible's own brightness (one shared range for all four faces).",
+    "model_change": "see quicksilver_crucible_side",
+    "animated": false
+  },
+  {
+    "id": "golem_bydlo",
+    "kind": "entity",
+    "target": "assets/thaumaturgicconcilium/textures/entity/golem_bydlo.png",
+    "kin": "minecraft:entity/iron_golem/iron_golem",
+    "original": null,
+    "group": "Golem Bydlo",
+    "summary": "A thaumium golem: vanilla's iron golem sheet (same UV layout) gradient-mapped onto Thaumaturge's thaumium block tones.",
+    "model_change": {
+      "java": "src/main/java/com/thaumaturgicconcilium/compat/horizons/client/GolemBydloRenderer.java",
+      "change": "TEXTURE = ThaumicConcilium.id(\"textures/entity/golem_bydlo.png\") instead of the vanilla iron golem sheet"
+    },
+    "animated": false
+  }
+]

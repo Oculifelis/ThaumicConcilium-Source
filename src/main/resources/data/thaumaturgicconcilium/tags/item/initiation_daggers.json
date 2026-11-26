@@ -1,0 +1,9 @@
+{
+  "values": [
+    "thaumaturge:crimson_blade",
+    {
+      "id": "taintedmagic:crystal_dagger",
+      "required": false
+    }
+  ]
+}

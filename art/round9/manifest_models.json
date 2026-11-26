@@ -1,0 +1,52 @@
+[
+  {
+    "id": "astral_monitor",
+    "kind": "item_model",
+    "target": "art/round9/models/astral_monitor/ (copy its assets/ tree into src/main/resources)",
+    "kin": "thaumaturge:models/mesh/scanner.ttmesh + thaumaturge:item/scanner, scanscreen (the thaumometer)",
+    "original": "_reference/ThaumicConcilium/.../textures/models/atsral_frame.png (TC4 drew Thaumcraft's scanner.obj with it, End-portal stars on the screen)",
+    "group": "Models",
+    "summary": "The thaumometer itself, as a 3D held item: its mesh as an OBJ, the frame in astral violet with brass rims and edges, runes and ruler ticks lit starlight white, all six gems TC4 sapphire blue, and a translucent indigo star-chart lens.",
+    "model_change": {
+      "tree": "art/round9/models/astral_monitor",
+      "add_files": [
+        "assets/thaumaturgicconcilium/items/astral_monitor.json",
+        "assets/thaumaturgicconcilium/models/item/astral_monitor.json",
+        "assets/thaumaturgicconcilium/models/item/astral_monitor.mtl",
+        "assets/thaumaturgicconcilium/models/item/astral_monitor.obj",
+        "assets/thaumaturgicconcilium/textures/item/astral_monitor_frame.png",
+        "assets/thaumaturgicconcilium/textures/item/astral_monitor_lens.png"
+      ],
+      "replace": [
+        "assets/thaumaturgicconcilium/models/item/astral_monitor.json (item/generated sprite -> neoforge:obj)"
+      ],
+      "remove": [
+        "assets/thaumaturgicconcilium/textures/item/astral_monitor.png (no longer used by any model)"
+      ],
+      "note": "OBJ = Thaumaturge's scanner.ttmesh (positions x 1/2.8 + 0.5; UVs, normals, faces as they are; flip_v true as the ttmesh loader flips V). Thaumaturge is ARR: the mesh and the frame texture derive from its files, so this belongs in the private pack like the other Thaumaturge recolours. Display transforms checked only with art_round9_models.py's copy of vanilla's transform code, not in game. The thaumometer's two-armed first-person pose is Thaumaturge Java (ThaumometerHandRenderer, a RenderHandEvent hook keyed to its own item); a JSON model can only place the item per hand, so a matching two-arm pose needs a small client hook in src/."
+    },
+    "animated": false
+  },
+  {
+    "id": "vis_condenser",
+    "kind": "block_model",
+    "target": "art/round9/models/vis_condenser/ (copy its assets/ tree into src/main/resources)",
+    "kin": "thaumaturge:block/pedestal_arcane (model), metal_brass (grain and tones), vcrystal + minecraft:amethyst_shard",
+    "original": "_reference/ThaumicConcilium/.../textures/models/vis_condenser.png",
+    "group": "Models",
+    "summary": "The same brass pedestal, cleaned: five brass tones on Thaumaturge brass's own grain, mirrored even, a 1px bevel on cap, column and foot, all runes gone; one violet vis window down the column and one sunken vis crystal on top.",
+    "model_change": {
+      "tree": "art/round9/models/vis_condenser",
+      "add_files": [
+        "assets/thaumaturgicconcilium/textures/block/vis_condenser_side.png",
+        "assets/thaumaturgicconcilium/textures/block/vis_condenser_top.png"
+      ],
+      "replace": [
+        "assets/thaumaturgicconcilium/textures/block/vis_condenser_side.png",
+        "assets/thaumaturgicconcilium/textures/block/vis_condenser_top.png"
+      ],
+      "note": "Model, blockstate and items JSON unchanged (parent thaumaturge:block/pedestal_arcane). Round 4's vis_condenser_side/top entries in tools/apply_art.py must be dropped or come before round 9."
+    },
+    "animated": false
+  }
+]

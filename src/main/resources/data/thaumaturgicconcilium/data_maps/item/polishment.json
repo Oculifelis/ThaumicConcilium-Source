@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": {
+    "thaumaturgicconcilium:dump_jackboots": {
+      "aspect": "thaumaturge:motus",
+      "amount": 32
+    },
+    "thaumaturgicconcilium:tight_belt": {
+      "aspect": "thaumaturge:volatus",
+      "amount": 32
+    },
+    "thaumaturgicconcilium:burdening_amulet": {
+      "aspect": "thaumaturge:sensus",
+      "amount": 16
+    },
+    "thaumaturgicconcilium:ring_of_blustering_light": {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 128
+    }
+  }
+}

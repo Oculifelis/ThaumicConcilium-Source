@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thaumaturgicconcilium:block/destabilized_crystal",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -4610090
+      }
+    ]
+  }
+}

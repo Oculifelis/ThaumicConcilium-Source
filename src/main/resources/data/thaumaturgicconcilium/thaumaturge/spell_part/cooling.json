@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:gelum",
+  "behavior": {
+    "type": "thaumaturgicconcilium:cooling",
+    "sound": "thaumaturge:ice"
+  },
+  "color": 15658734,
+  "complexity": 2,
+  "icon": "thaumaturgicconcilium:textures/foci/cooling.png",
+  "research": {
+    "entry": "thaumaturgicconcilium:cooling_focus"
+  },
+  "vis": 0.009
+}
