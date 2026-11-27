@@ -44,7 +44,7 @@ public final class TCMobsClient {
         event.registerEntityRenderer(TCMobs.QUICKSILVER_ELEMENTAL.get(), TCBipedRenderer.of("quicksilver_elemental"));
         event.registerEntityRenderer(TCMobs.VENGEFUL_GOLEM.get(), TCBipedRenderer.of("vengeful_golem"));
         event.registerEntityRenderer(TCMobs.OVERANIMATED.get(), TCBipedRenderer.of("overanimated"));
-        event.registerEntityRenderer(TCMobs.ALIVE_LIMB.get(), TCBipedRenderer.of("thaumaturge"));
+        event.registerEntityRenderer(TCMobs.ALIVE_LIMB.get(), TCBipedRenderer.of("overanimated"));
         event.registerEntityRenderer(TCMobs.TAINT_SPIDER_SMART.get(), TaintSpiderSmartRenderer::new);
         event.registerEntityRenderer(TCMobs.NETHER_EXPLORER.get(), NetherExplorerRenderer::new);
         event.registerEntityRenderer(TCMobs.UPCOMING_HOLE.get(), NoopRenderer::new);

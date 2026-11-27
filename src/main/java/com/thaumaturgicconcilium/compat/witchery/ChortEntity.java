@@ -29,7 +29,8 @@ import org.jspecify.annotations.Nullable;
  * Sloppy Alchemist and shares its target with its mount. Drops (loot table): Foul Fume or Exhale of the Horned One
  * (0-3), or a Mandrake Root.
  *
- * <p>Players holding an imp pact are left alone, and the Chort says so in chat ({@link ImpPact}).
+ * <p>Cut: the original left alone players holding an imp "pact" (a 1.7.10 Witchery imp-gift hook). Witchery 0.5's imp
+ * has no gift or deal to hook, so every player is a target.
  */
 public class ChortEntity extends Monster {
     public ChortEntity(EntityType<? extends ChortEntity> type, Level level) {
