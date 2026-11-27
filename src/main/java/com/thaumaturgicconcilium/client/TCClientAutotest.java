@@ -136,6 +136,17 @@ public final class TCClientAutotest {
         } else if (worldTicks == 780 && net.neoforged.fml.ModList.get().isLoaded("thaumichorizons")) {
             shot(mc);
         } else if (worldTicks == 820) {
+            scene(mc, LIMB_SCENE, "tp @a 0.5 -59 7.5 180 15");
+        } else if (worldTicks == 824) {
+            command(mc, "kill @e[type=thaumaturgicconcilium:overanimated]");
+        } else if (worldTicks == 836) {
+            IntegratedServer server = mc.getSingleplayerServer();
+            if (server != null) {
+                server.execute(() -> LOG.info("TCTEST limbs {} (6 frozen + 12 from deaths expected)",
+                        server.overworld().getEntities(com.thaumaturgicconcilium.mob.TCMobs.ALIVE_LIMB.get(), e -> true).size()));
+            }
+            shot(mc);
+        } else if (worldTicks == 860) {
             LOG.info("TCTEST done");
             finish(mc);
         }
@@ -415,6 +426,27 @@ public final class TCClientAutotest {
         "summon minecraft:item_display 12 -59.5 2 {item:{id:\"thaumaturgicconcilium:casting_bracelet_tainted\"}}",
         "summon minecraft:item_display 13 -59.5 2 {item:{id:\"thaumaturgicconcilium:casting_bracelet_warpwood\"}}",
         "summon minecraft:item_display 14 -59.5 2 {item:{id:\"thaumaturgicconcilium:red_powered_mind\"}}"};
+
+    /** Limb check: a frozen row of Alive Limbs (types 0-5) behind two Overanimated that die on the next step. */
+    private static final String[] LIMB_SCENE = {
+        "summon thaumaturgicconcilium:thaum_gib -3.5 -60 0.5 {NoAI:1b,Type:0,Rotation:[0f,0f]}",
+        "summon thaumaturgicconcilium:thaum_gib -2 -60 0.5 {NoAI:1b,Type:1,Rotation:[0f,0f]}",
+        "summon thaumaturgicconcilium:thaum_gib -0.5 -60 0.5 {NoAI:1b,Type:2,Rotation:[0f,0f]}",
+        "summon thaumaturgicconcilium:thaum_gib 1 -60 0.5 {NoAI:1b,Type:3,Rotation:[0f,0f]}",
+        "summon thaumaturgicconcilium:thaum_gib 2.5 -60 0.5 {NoAI:1b,Type:4,Rotation:[0f,0f]}",
+        "summon thaumaturgicconcilium:thaum_gib 4 -60 0.5 {NoAI:1b,Type:5,Rotation:[0f,0f]}",
+        "summon thaumaturgicconcilium:overanimated -1.5 -60 3.5 {NoAI:1b,Rotation:[0f,0f]}",
+        "summon thaumaturgicconcilium:overanimated 2.5 -60 3.5 {NoAI:1b,Rotation:[0f,0f]}"};
+
+    private static void command(Minecraft mc, String c) {
+        IntegratedServer server = mc.getSingleplayerServer();
+        if (server != null) {
+            server.execute(() -> {
+                LOG.info("TCTEST /{}", c);
+                server.getCommands().performPrefixedCommand(server.createCommandSourceStack(), c);
+            });
+        }
+    }
 
     private static void scene(Minecraft mc, String[] scene) {
         scene(mc, scene, "tp @a 7.5 -57 15.5 180 15");

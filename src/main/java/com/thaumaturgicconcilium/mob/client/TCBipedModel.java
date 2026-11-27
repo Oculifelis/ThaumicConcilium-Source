@@ -68,6 +68,7 @@ public class TCBipedModel<T extends LivingEntity> extends HumanoidModel<T> {
     /** Shows one part, set down so it rests on the ground (the gib's 0.5-tall box). */
     private void limb(int type) {
         head.visible = type == 0;
+        hat.visible = type == 0;
         body.visible = type == 1;
         rightArm.visible = type == 2;
         leftArm.visible = type == 3;
@@ -86,6 +87,7 @@ public class TCBipedModel<T extends LivingEntity> extends HumanoidModel<T> {
         switch (type) {
             case 0 -> {
                 head.y = 24.0F;
+                hat.copyFrom(head);
             }
             case 1 -> {
                 body.y = 22.0F;
